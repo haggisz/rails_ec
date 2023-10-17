@@ -11,6 +11,7 @@ gem 'rails', '~> 7.0.0'
 gem 'bundler', '~> 2.4', '>= 2.4.20'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
+gem 'dartsass-sprockets', '~> 3.0'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
@@ -20,6 +21,9 @@ gem 'puma', '~> 5.0'
 
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
 gem 'jsbundling-rails'
+gem 'jquery-rails'
+gem 'popper_js', '~> 2.11.8'
+
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem 'turbo-rails'
@@ -81,6 +85,6 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '~> 4.14'
   gem 'webdrivers'
 end
