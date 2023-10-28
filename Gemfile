@@ -8,10 +8,12 @@ ruby '3.2.1'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.0'
 
-gem 'bundler', '~> 2.4', '>= 2.4.20'
+gem 'bundler', '~> 2.4.21'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 gem 'dartsass-sprockets', '~> 3.0.0'
+gem 'slim-rails', '~> 3.1', '>= 3.1.3'
+gem 'html2slim', '~> 0.2.0'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
@@ -25,10 +27,11 @@ gem 'jquery-rails'
 gem 'popper_js', '~> 2.11.8'
 
 #active Storage
-gem 'ruby-vips', '~> 2.1', '>= 2.1.4'
-gem 'ffmpeg'
-gem 'poppler', '~> 4.2'
-gem 'gobject-introspection', '~> 4.2'
+# gem 'ruby-vips', '~> 2.1', '>= 2.1.4'
+# gem 'ffmpeg'
+# gem 'shared-mime-info', '~> 0.2.5'
+# gem 'poppler', '~> 4.2'
+# gem 'gobject-introspection', '~> 4.2'
 gem 'cairo-gobject', '~> 4.2'
 gem 'gio2', '~> 4.2'
 gem 'ddtrace', '~> 1.0'
