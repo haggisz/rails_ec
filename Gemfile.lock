@@ -5,6 +5,13 @@ GIT
     rubocop-hc (0.1.0)
       rubocop
 
+GIT
+  remote: https://github.com/slim-template/html2slim.git
+  revision: 6a08e416e4cd0e1b0804bfda5a9296ff7371e549
+  specs:
+    html2slim (0.2.0)
+      hpricot
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -146,8 +153,6 @@ GEM
       glib2 (= 4.2.0)
     google-protobuf (3.24.4-x86_64-linux)
     hpricot (0.8.6)
-    html2slim (0.2.0)
-      hpricot
     htmlbeautifier (1.4.2)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
@@ -377,7 +382,7 @@ DEPENDENCIES
   factory_bot_rails
   gio2 (~> 4.2)
   google-protobuf (~> 3.0)
-  html2slim (~> 0.2.0)
+  html2slim!
   htmlbeautifier
   image_processing (~> 1.12, >= 1.12.2)
   jbuilder

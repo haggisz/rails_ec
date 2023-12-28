@@ -7,13 +7,12 @@ ruby '3.2.1'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.0'
-
 gem 'bundler', '~> 2.4.21'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 gem 'dartsass-sprockets', '~> 3.0.0'
 gem 'slim-rails', '~> 3.1', '>= 3.1.3'
-gem 'html2slim', '~> 0.2.0'
+gem 'html2slim', :git => 'https://github.com/slim-template/html2slim.git'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'

@@ -8,15 +8,17 @@ RUN ln -fs /usr/local/lib/node_modules/npm/bin/npm-cli.js /usr/local/bin/npm \
   && ln -fs /opt/yarn/bin/yarn /usr/local/bin/yarn \
   && ln -fs /opt/yarn/bin/yarnpkg /usr/local/bin/yarnpkg
 
-RUN set -eux && \
-  apt-get update -qq && \
-  apt-get install -y gosu \
-  && useradd -G sudo --user-group --create-home --shell /bin/false app \
+
+RUN set -eux \
+	&& apt-get update \
+	&& apt-get install -y gosu \
+	&& rm -rf /var/lib/apt/lists/* \
+# verify that the binary works
+	&& gosu nobody true
+RUN useradd -G sudo --user-group --create-home --shell /bin/false app \
   && chown -R $USER:$USER db log storage tmp \
   && echo 'app:apppass' | chpasswd \
   && curl https://cli-assets.heroku.com/install.sh | sh \
-  && gosu nobody true \
-  && apt-get update -qq \
   && apt-get install -y gobject-introspection \
   libvips \
   ffmpeg \
