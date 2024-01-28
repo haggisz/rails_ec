@@ -1,0 +1,7 @@
+{
+  "name": "My DevContainer",
+  "dockerComposeFile": "compose.yaml",
+  "service": "web",
+  "remoteUser": "vscode",
+  "workspaceFolder": "/home/jagaimo/app"
+}

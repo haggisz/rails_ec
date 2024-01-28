@@ -1,0 +1,15 @@
+        = image_tag product.image, size: '200x200', class: 'd-block mx-auto img-fluid w-60'
+        .card-body.p-4
+          .text-center
+            h5.fw-bolder
+              = product.name
+            .d-flex.justify-content-center.small.text-warning.mb-2
+              .bi-star-fill
+              .bi-star-fill
+              .bi-star-fill
+              .bi-star-fill
+              .bi-star-fill
+              = product.price
+        .card-footer.p-4.pt-0.border-top-0.bg-transparent
+          .text-center
+            = link_to product.action, controller: :products, action: :show, id: product.id, class: 'btn btn-outline-dark.mt-auto stretched-link'

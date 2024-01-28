@@ -1,0 +1,3 @@
+---
+3.0.0 dartsass-ruby:~> 3.0,railties:>= 4.0.0,sprockets:> 3.0,sprockets-rails:>= 0,tilt:>= 0|checksum:9dd57f8b2471356cb25ed0a3069c6242433eaac80affcf89113f4693629982a0,ruby:>= 2.6.0
+3.1.0 railties:>= 4.0.0,sassc-embedded:~> 1.69,sprockets:> 3.0,sprockets-rails:>= 0,tilt:>= 0|checksum:c238ec9f7f496489ac5a7813cd1f83d1e077a1826921acefc7e290a521b7a20a,ruby:>= 3.1

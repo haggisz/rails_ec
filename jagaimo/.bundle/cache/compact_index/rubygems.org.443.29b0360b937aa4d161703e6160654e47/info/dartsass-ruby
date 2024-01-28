@@ -1,0 +1,4 @@
+---
+3.0.0 sass-embedded:~> 1.54|checksum:db3409b12ac4afed10dbae1344f3ccd1cc8c4f4411364a3d1332a6b3f6a41024,ruby:>= 2.6.0
+3.0.1 sass-embedded:~> 1.54|checksum:e6929ed3b4059236b10766dfb4218a04e0fe708ee2a8c85fb24fb6edad6e6f7c,ruby:>= 2.6.0
+3.0.2 sass-embedded:< 1.67&~> 1.54|checksum:db96d00d7ec8686463412bbfdd21611d51d6da4d49355e6bde78f488122f77c4,ruby:>= 2.6.0

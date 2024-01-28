@@ -1,0 +1,18 @@
+2024-01-28 10:19:59.128 [info] 
+
+
+
+
+2024-01-28 10:19:59.147 [info] Extension host agent started.
+2024-01-28 10:19:59.226 [debug] No uninstalled extensions found.
+2024-01-28 10:19:59.249 [info] [127.0.0.1][8846dfa7][ManagementConnection] New connection established.
+2024-01-28 10:19:59.278 [info] Log level changed to info
+2024-01-28 10:19:59.549 [info] [127.0.0.1][1c9ffbef][ExtensionHostConnection] New connection established.
+2024-01-28 10:19:59.563 [info] [127.0.0.1][1c9ffbef][ExtensionHostConnection] <299> Launched Extension Host Process.
+2024-01-28 13:39:03.417 [info] Getting Manifest... smallstall.auto-arrange-tabs
+2024-01-28 13:39:03.535 [info] Installing extension: smallstall.auto-arrange-tabs
+2024-01-28 13:39:05.778 [warning] Extension signature verification failed with error 'ENOENT': smallstall.auto-arrange-tabs
+2024-01-28 13:39:05.829 [info] Extracted extension to file:///home/jagaimo/jagaimo/.vscode-server/extensions/smallstall.auto-arrange-tabs-0.5.0: smallstall.auto-arrange-tabs
+2024-01-28 13:39:05.836 [info] Renamed to /home/jagaimo/jagaimo/.vscode-server/extensions/smallstall.auto-arrange-tabs-0.5.0
+2024-01-28 13:39:05.841 [info] Extracting extension completed. smallstall.auto-arrange-tabs
+2024-01-28 13:39:05.853 [info] Extension installed successfully: smallstall.auto-arrange-tabs

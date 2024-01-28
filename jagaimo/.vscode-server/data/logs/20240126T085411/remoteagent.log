@@ -1,0 +1,13 @@
+2024-01-26 08:54:11.871 [info] 
+
+
+
+
+2024-01-26 08:54:11.905 [info] Extension host agent started.
+2024-01-26 08:54:11.999 [debug] No uninstalled extensions found.
+2024-01-26 08:54:12.003 [info] [127.0.0.1][8e6c87f3][ManagementConnection] New connection established.
+2024-01-26 08:54:12.039 [info] Log level changed to info
+2024-01-26 08:54:12.354 [info] [127.0.0.1][417c16ba][ExtensionHostConnection] New connection established.
+2024-01-26 08:54:12.364 [info] [127.0.0.1][417c16ba][ExtensionHostConnection] <330> Launched Extension Host Process.
+2024-01-26 18:44:35.218 [info] [127.0.0.1][8e6c87f3][ManagementConnection] The client has reconnected.
+2024-01-26 18:44:35.625 [info] [127.0.0.1][417c16ba][ExtensionHostConnection] The client has reconnected.

@@ -1,0 +1,521 @@
+2024-01-27 13:21:45.086 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 13:21:45.108 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 13:21:45.138 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 13:21:45.159 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 13:21:45.182 [info] (jagaimo) Discovered version manager none
+2024-01-27 13:21:45.183 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:04:44.566 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:04:44.587 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:04:44.600 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:04:44.618 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:04:44.634 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:04:44.634 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:05:01.229 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:05:01.244 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:05:01.260 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:05:01.275 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:05:01.290 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:05:01.291 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:05:01.321 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:05:01.337 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:05:01.354 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:05:01.374 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:05:01.403 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:05:01.403 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:05:37.585 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:05:37.603 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:05:37.620 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:05:37.638 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:05:37.663 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:05:37.663 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:05:37.685 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:05:37.704 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:05:37.749 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:05:37.789 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:05:37.807 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:05:37.808 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:06:05.842 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:06:05.854 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:06:05.865 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:06:05.878 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:06:05.890 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:06:05.890 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:06:05.926 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:06:05.939 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:06:05.953 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:06:05.968 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:06:05.991 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:06:05.991 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:06:14.412 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:06:14.425 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:06:14.436 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:06:14.449 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:06:14.463 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:06:14.463 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:06:14.496 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:06:14.512 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:06:14.526 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:06:14.540 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:06:14.562 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:06:14.563 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:06:17.662 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:06:17.675 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:06:17.689 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:06:17.702 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:06:17.715 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:06:17.716 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:06:27.019 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:06:27.033 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:06:27.048 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:06:27.063 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:06:27.077 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:06:27.078 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:06:30.762 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:06:30.778 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:06:30.794 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:06:30.808 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:06:30.824 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:06:30.824 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:06:32.369 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:06:32.390 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:06:32.409 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:06:32.426 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:06:32.445 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:06:32.445 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:06:32.462 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:06:32.479 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:06:32.496 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:06:32.518 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:06:32.536 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:06:32.536 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:06:47.291 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:06:47.308 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:06:47.324 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:06:47.340 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:06:47.355 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:06:47.355 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:04.738 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:04.756 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:04.774 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:04.792 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:04.809 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:04.809 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:04.835 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:04.854 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:04.873 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:04.894 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:04.929 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:04.929 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:12.935 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:12.959 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:12.979 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:12.998 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:13.019 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:13.019 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:13.041 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:13.064 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:13.091 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:13.112 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:13.152 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:13.152 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:19.943 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:19.964 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:19.984 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:20.004 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:20.024 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:20.025 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:20.049 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:20.070 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:20.091 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:20.112 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:20.147 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:20.147 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:35.758 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:35.773 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:35.788 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:35.801 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:35.817 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:35.817 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:35.834 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:35.848 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:35.864 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:35.879 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:35.894 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:35.894 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:36.968 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:36.983 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:36.998 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:37.012 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:37.027 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:37.027 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:37.055 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:37.071 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:37.088 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:37.106 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:37.136 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:37.136 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:39.777 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:39.791 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:39.808 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:39.824 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:39.841 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:39.841 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:39.905 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:39.925 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:39.942 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:39.970 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:39.988 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:39.988 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:49.647 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:49.662 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:49.676 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:49.691 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:49.705 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:49.705 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:49.735 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:49.750 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:49.765 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:49.780 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:49.794 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:49.794 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:07:55.525 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:07:55.541 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:07:55.555 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:07:55.570 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:07:55.586 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:07:55.587 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:08:01.474 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:08:01.490 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:08:01.508 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:08:01.527 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:08:01.541 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:08:01.541 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:08:04.950 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:08:04.966 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:08:04.984 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:08:05.000 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:08:05.016 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:08:05.016 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:08:05.036 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:08:05.053 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:08:05.069 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:08:05.084 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:08:05.115 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:08:05.115 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:08:30.043 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:08:30.057 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:08:30.070 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:08:30.083 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:08:30.096 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:08:30.096 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:08:30.128 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:08:30.142 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:08:30.156 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:08:30.169 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:08:30.195 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:08:30.195 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:08:34.238 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:08:34.251 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:08:34.263 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:08:34.275 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:08:34.288 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:08:34.288 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:08:34.323 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:08:34.337 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:08:34.353 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:08:34.365 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:08:34.389 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:08:34.389 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:08:35.521 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:08:35.533 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:08:35.546 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:08:35.558 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:08:35.569 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:08:35.569 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:08:42.089 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:08:42.102 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:08:42.115 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:08:42.129 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:08:42.142 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:08:42.143 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:08:48.632 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:08:48.645 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:08:48.658 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:08:48.672 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:08:48.684 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:08:48.685 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:08:48.706 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:08:48.721 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:08:48.734 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:08:48.748 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:08:48.775 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:08:48.775 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:08:57.029 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:08:57.046 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:08:57.062 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:08:57.078 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:08:57.094 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:08:57.094 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:08:59.156 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:08:59.178 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:08:59.196 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:08:59.212 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:08:59.227 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:08:59.227 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:09:01.443 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:09:01.466 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:09:01.537 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:09:01.558 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:09:01.575 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:09:01.576 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:09:07.312 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:09:07.329 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:09:07.346 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:09:07.364 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:09:07.379 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:09:07.379 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:09:26.518 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:09:26.534 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:09:26.548 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:09:26.562 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:09:26.579 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:09:26.579 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:09:26.605 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:09:26.621 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:09:26.637 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:09:26.653 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:09:26.666 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:09:26.666 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:09:31.383 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:09:31.398 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:09:31.412 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:09:31.426 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:09:31.441 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:09:31.441 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:09:31.590 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:09:31.606 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:09:31.623 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:09:31.638 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:09:31.655 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:09:31.655 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:09:37.347 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:09:37.361 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:09:37.376 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:09:37.389 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:09:37.822 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:09:37.822 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:09:43.266 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:09:43.282 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:09:43.294 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:09:43.308 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:09:43.323 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:09:43.324 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:09:48.529 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:09:48.542 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:09:48.554 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:09:48.568 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:09:48.582 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:09:48.582 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:09:59.533 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:09:59.548 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:09:59.562 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:09:59.575 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:09:59.589 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:09:59.589 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:10:31.030 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:10:31.048 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:10:31.128 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:10:31.145 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:10:31.161 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:10:31.161 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:10:40.879 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:10:40.893 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:10:40.909 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:10:40.925 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:10:40.941 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:10:40.941 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:10:44.396 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:10:44.415 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:10:44.433 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:10:44.449 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:10:44.465 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:10:44.466 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:10:46.887 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:10:46.903 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:10:46.919 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:10:46.936 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:10:46.960 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:10:46.960 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:10:46.980 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:10:46.999 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:10:47.017 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:10:47.035 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:10:47.056 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:10:47.056 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:10:56.183 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:10:56.200 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:10:56.217 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:10:56.234 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:10:56.255 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:10:56.255 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:10:57.757 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:10:57.775 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:10:57.790 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:10:57.809 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:10:57.828 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:10:57.828 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:10:57.847 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:10:57.865 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:10:57.884 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:10:57.903 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:10:57.935 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:10:57.936 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:10:59.897 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:10:59.915 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:10:59.932 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:10:59.948 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:10:59.966 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:10:59.966 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:10:59.983 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:11:00.000 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:11:00.023 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:11:00.040 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:11:00.071 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:11:00.071 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:11:01.621 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:11:01.641 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:11:01.658 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:11:01.676 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:11:01.700 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:11:01.700 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:11:01.719 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:11:01.741 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:11:01.759 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:11:01.778 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:11:01.813 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:11:01.813 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:11:03.589 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:11:03.614 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:11:03.635 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:11:03.657 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:11:03.680 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:11:03.680 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:11:54.750 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:11:54.764 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:11:54.777 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:11:54.803 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:11:54.819 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:11:54.819 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:11:54.964 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:11:54.979 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:11:54.993 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:11:55.007 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:11:55.021 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:11:55.021 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:11:57.372 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:11:57.387 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:11:57.402 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:11:57.419 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:11:57.433 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:11:57.433 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:12:00.893 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:12:00.906 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:12:00.919 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:12:00.932 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:12:00.946 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:12:00.946 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:12:02.729 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:12:02.741 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:12:02.753 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:12:02.767 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:12:02.779 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:12:02.779 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:12:02.850 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:12:02.876 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:12:02.891 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:12:02.904 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:12:02.919 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:12:02.919 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:12:04.404 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:12:04.420 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:12:04.434 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:12:04.448 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:12:04.462 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:12:04.462 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:12:04.492 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:12:04.506 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:12:04.522 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:12:04.535 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:12:04.550 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:12:04.551 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:12:08.925 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:12:08.937 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:12:08.951 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:12:08.964 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:12:08.977 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:12:08.977 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:12:15.164 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:12:15.177 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:12:15.190 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:12:15.205 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:12:15.218 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:12:15.218 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 14:12:25.214 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 14:12:25.228 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 14:12:25.241 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 14:12:25.256 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 14:12:25.269 [info] (jagaimo) Discovered version manager none
+2024-01-27 14:12:25.269 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 20:02:19.272 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 20:02:19.296 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 20:02:19.324 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 20:02:19.338 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 20:02:19.355 [info] (jagaimo) Discovered version manager none
+2024-01-27 20:02:19.355 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 20:02:19.369 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 20:02:19.389 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 20:02:19.402 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 20:02:19.423 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 20:02:19.439 [info] (jagaimo) Discovered version manager none
+2024-01-27 20:02:19.439 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 20:02:28.334 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 20:02:28.363 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 20:02:28.377 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 20:02:28.394 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 20:02:28.417 [info] (jagaimo) Discovered version manager none
+2024-01-27 20:02:28.418 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 20:02:28.442 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 20:02:28.467 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 20:02:28.484 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 20:02:28.497 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 20:02:28.525 [info] (jagaimo) Discovered version manager none
+2024-01-27 20:02:28.525 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 20:02:52.059 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 20:02:52.072 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 20:02:52.084 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 20:02:52.103 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 20:02:52.119 [info] (jagaimo) Discovered version manager none
+2024-01-27 20:02:52.119 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 20:02:55.819 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 20:02:55.834 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 20:02:55.849 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 20:02:55.864 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 20:02:55.882 [info] (jagaimo) Discovered version manager none
+2024-01-27 20:02:55.882 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 20:15:33.914 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'rbenv exec ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 20:15:36.212 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 20:15:36.232 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 20:15:36.253 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 20:15:36.272 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 20:15:36.297 [info] (jagaimo) Discovered version manager none
+2024-01-27 20:15:36.297 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 20:15:36.431 [info] (jagaimo) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-01-27 20:15:36.462 [info] (jagaimo) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-01-27 20:15:36.486 [info] (jagaimo) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-01-27 20:15:36.520 [info] (jagaimo) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-01-27 20:15:36.547 [info] (jagaimo) Discovered version manager none
+2024-01-27 20:15:36.547 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 20:16:55.953 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'rbenv exec ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 20:16:56.025 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'rbenv exec ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 20:16:56.057 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'rbenv exec ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo
+2024-01-27 21:11:20.722 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'rbenv exec ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo

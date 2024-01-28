@@ -1,0 +1,8 @@
+[user]
+	name = jagaimo
+	email = kurosuke96382@gmail.com
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential]
+	helper = "!f() { /home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node /tmp/vscode-remote-containers-a03651e8-1375-4c22-a912-b19060cb14a5.js git-credential-helper $*; }; f"
