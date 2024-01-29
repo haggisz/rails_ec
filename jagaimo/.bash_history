@@ -75,3 +75,5 @@ su root
 ..
 ks
 exit
+docker
+devcontainer up

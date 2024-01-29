@@ -1,0 +1,17 @@
+{
+  "name": "Docker in Docker",
+  "dockerComposeFile": "compose.yaml",
+  "service": "web",
+  "remoteUser": "vscode",
+  "workspaceFolder": "/home/jagaimo/app",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "latest",
+      "enableNonRootDocker": "true",
+      "moby": "true"
+    },
+    "ghcr.io/dhoeric/features/act:1": {}
+
+
+}
+}
