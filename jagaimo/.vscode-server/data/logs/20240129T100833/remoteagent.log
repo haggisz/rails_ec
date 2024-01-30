@@ -14,3 +14,17 @@
 2024-01-29 10:48:44.914 [info] [127.0.0.1][946079d3][ManagementConnection] New connection established.
 2024-01-29 10:48:45.934 [info] [127.0.0.1][195d0816][ExtensionHostConnection] New connection established.
 2024-01-29 10:48:45.940 [info] [127.0.0.1][195d0816][ExtensionHostConnection] <20832> Launched Extension Host Process.
+2024-01-30 03:03:27.067 [info] [127.0.0.1][946079d3][ManagementConnection] The client has reconnected.
+2024-01-30 03:03:28.012 [info] [127.0.0.1][195d0816][ExtensionHostConnection] The client has reconnected.
+2024-01-30 05:40:17.154 [info] [127.0.0.1][946079d3][ManagementConnection] The client has reconnected.
+2024-01-30 05:40:18.151 [info] [127.0.0.1][195d0816][ExtensionHostConnection] The client has reconnected.
+2024-01-30 06:01:38.425 [info] [127.0.0.1][946079d3][ManagementConnection] The client has reconnected.
+2024-01-30 06:01:39.407 [info] [127.0.0.1][195d0816][ExtensionHostConnection] The client has reconnected.
+2024-01-30 08:27:52.369 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-30 08:47:43.101 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-30 10:18:27.680 [info] [127.0.0.1][02f13c6f][ManagementConnection] New connection established.
+2024-01-30 10:18:28.703 [info] [127.0.0.1][631fa12f][ExtensionHostConnection] New connection established.
+2024-01-30 10:18:29.222 [info] [127.0.0.1][631fa12f][ExtensionHostConnection] <64117> Launched Extension Host Process.
+2024-01-30 10:24:25.785 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-30 10:29:59.042 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-30 10:38:34.426 [warning] No ptyHost heartbeat after 6 seconds

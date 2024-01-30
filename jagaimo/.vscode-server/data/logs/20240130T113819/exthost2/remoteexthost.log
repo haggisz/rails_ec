@@ -1,0 +1,18 @@
+2024-01-30 11:38:26.428 [info] Extension host with pid 909 started
+2024-01-30 11:38:26.428 [error] Error: EEXIST: file already exists, open '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/05eec0cb8e9457c43af9fade71b95ad7/vscode.lock'
+2024-01-30 11:38:26.435 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/05eec0cb8e9457c43af9fade71b95ad7/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-01-30 11:38:26.445 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/05eec0cb8e9457c43af9fade71b95ad7/vscode.lock': The pid 20832 appears to be gone.
+2024-01-30 11:38:26.445 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/05eec0cb8e9457c43af9fade71b95ad7/vscode.lock': Deleting a stale lock.
+2024-01-30 11:38:26.464 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/05eec0cb8e9457c43af9fade71b95ad7/vscode.lock': Lock acquired.
+2024-01-30 11:38:26.539 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-30 11:38:26.680 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-30 11:38:26.680 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+2024-01-30 11:38:26.715 [info] ExtensionService#_doActivateExtension Shopify.ruby-lsp, startup: true, activationEvent: 'workspaceContains:Gemfile.lock'
+2024-01-30 11:38:26.827 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-30 11:38:26.828 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-30 11:38:27.104 [info] ExtensionService#_doActivateExtension github.vscode-github-actions, startup: true, activationEvent: 'workspaceContains:**/.github/workflows/**'
+2024-01-30 11:38:27.294 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-01-30 11:38:27.294 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-01-30 11:38:36.683 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-30 11:38:36.684 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-30 11:38:36.684 [info] ExtensionService#_doActivateExtension smallStall.auto-arrange-tabs, startup: false, activationEvent: 'onStartupFinished'

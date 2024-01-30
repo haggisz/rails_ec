@@ -1,0 +1,16 @@
+2024-01-30 11:38:22.189 [info] Extension host with pid 341 started
+2024-01-30 11:38:22.189 [error] Error: EEXIST: file already exists, open '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/7a79849c9650f56952255143ade1d646/vscode.lock'
+2024-01-30 11:38:22.201 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/7a79849c9650f56952255143ade1d646/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-01-30 11:38:22.214 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/7a79849c9650f56952255143ade1d646/vscode.lock': The pid 64117 appears to be gone.
+2024-01-30 11:38:22.214 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/7a79849c9650f56952255143ade1d646/vscode.lock': Deleting a stale lock.
+2024-01-30 11:38:22.272 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-30 11:38:22.308 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/7a79849c9650f56952255143ade1d646/vscode.lock': Lock acquired.
+2024-01-30 11:38:22.466 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-30 11:38:22.467 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+2024-01-30 11:38:22.635 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-30 11:38:22.636 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-30 11:38:23.170 [info] Eager extensions activated
+2024-01-30 11:38:23.171 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-30 11:38:23.172 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-30 11:38:23.174 [info] ExtensionService#_doActivateExtension smallStall.auto-arrange-tabs, startup: false, activationEvent: 'onStartupFinished'
+2024-01-30 12:39:00.006 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
