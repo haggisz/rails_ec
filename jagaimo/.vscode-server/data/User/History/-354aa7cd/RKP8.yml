@@ -11,8 +11,8 @@ jobs:
     steps:
     - name: Create rails master key for build
       run: |
-        touch $GITHUB_WORKSPACE/master.key
-        echo ${{ secrets.RAILS_MASTER_KEY }} > $GITHUB_WORKSPACE/master.key
+      touch $GITHUB_WORKSPACE/master.key
+      echo ${{ secrets.RAILS_MASTER_KEY }} > $GITHUB_WORKSPACE/master.key
     - name: checkout pushed commit
       uses: actions/checkout@v2
       with:

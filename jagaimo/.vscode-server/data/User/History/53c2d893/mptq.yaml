@@ -45,5 +45,5 @@ volumes:
   bundle:
 
 secrets:
-  master_key:
+  master_ekey:
     file: ./master.key

@@ -1,0 +1,22 @@
+2024-01-31 19:08:32.384 [info] Extension host with pid 414 started
+2024-01-31 19:08:32.384 [error] Error: EEXIST: file already exists, open '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/b0670bd9501272b8415ef5b27d7ea4aa/vscode.lock'
+2024-01-31 19:08:32.390 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/b0670bd9501272b8415ef5b27d7ea4aa/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-01-31 19:08:32.409 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/b0670bd9501272b8415ef5b27d7ea4aa/vscode.lock': The lock does not look stale, elapsed: 29864 ms, giving up.
+2024-01-31 19:08:32.471 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-31 19:08:32.583 [error] Error: EEXIST: file already exists, open '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/b0670bd9501272b8415ef5b27d7ea4aa-1/vscode.lock'
+2024-01-31 19:08:32.593 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/b0670bd9501272b8415ef5b27d7ea4aa-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-01-31 19:08:32.626 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/b0670bd9501272b8415ef5b27d7ea4aa-1/vscode.lock': The lock looks stale, waiting for 2s.
+2024-01-31 19:08:33.069 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-01-31 19:08:33.070 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-01-31 19:08:34.023 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-31 19:08:34.024 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+2024-01-31 19:08:34.189 [info] ExtensionService#_doActivateExtension Shopify.ruby-lsp, startup: true, activationEvent: 'workspaceContains:Gemfile.lock'
+2024-01-31 19:08:34.502 [info] ExtensionService#_doActivateExtension github.vscode-github-actions, startup: true, activationEvent: 'workspaceContains:**/.github/workflows/**'
+2024-01-31 19:08:34.758 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/b0670bd9501272b8415ef5b27d7ea4aa-1/vscode.lock': The lock looks stale even after waiting for 2s.
+2024-01-31 19:08:34.758 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/b0670bd9501272b8415ef5b27d7ea4aa-1/vscode.lock': Deleting a stale lock.
+2024-01-31 19:08:34.768 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/b0670bd9501272b8415ef5b27d7ea4aa-1/vscode.lock': Lock acquired.
+2024-01-31 19:08:34.878 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-31 19:08:34.878 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-31 19:08:44.042 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 19:08:44.042 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 19:08:44.043 [info] ExtensionService#_doActivateExtension smallStall.auto-arrange-tabs, startup: false, activationEvent: 'onStartupFinished'

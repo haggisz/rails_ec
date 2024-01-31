@@ -1,3 +1,0 @@
-[Error - 4:49:50 PM] Failed to fetch action metadata for actions/checkout/v: 'No commit found for the ref v'
-[Error - 4:58:56 PM] Error while completing expression: 'Cannot read properties of undefined (reading 'accept')'
-[Error - 4:58:57 PM] Error while completing expression: 'Unrecognized named-value: 'git''

@@ -1,0 +1,74 @@
+2024-01-31 19:14:42.148 [info] Log level: Info
+2024-01-31 19:14:42.148 [info] Validating found git in: "git"
+2024-01-31 19:14:42.148 [info] Using git "2.30.2" from "git"
+2024-01-31 19:14:42.148 [info] > git rev-parse --show-toplevel [14ms]
+2024-01-31 19:14:42.148 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.148 [info] > git rev-parse --show-toplevel [7ms]
+2024-01-31 19:14:42.148 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.150 [info] > git rev-parse --show-toplevel [5ms]
+2024-01-31 19:14:42.150 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.162 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-31 19:14:42.162 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-01-31 19:14:42.180 [info] > git rev-parse --show-toplevel [6ms]
+2024-01-31 19:14:42.180 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.194 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-31 19:14:42.194 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.205 [info] > git rev-parse --show-toplevel [4ms]
+2024-01-31 19:14:42.205 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.220 [info] > git rev-parse --show-toplevel [5ms]
+2024-01-31 19:14:42.220 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.233 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-31 19:14:42.233 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.249 [info] > git rev-parse --show-toplevel [6ms]
+2024-01-31 19:14:42.249 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.261 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-31 19:14:42.261 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.285 [info] > git rev-parse --show-toplevel [16ms]
+2024-01-31 19:14:42.285 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-01-31 19:14:42.310 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-31 19:14:42.310 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.329 [info] > git rev-parse --show-toplevel [10ms]
+2024-01-31 19:14:42.329 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.343 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-31 19:14:42.343 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.365 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-31 19:14:42.366 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-01-31 19:14:42.375 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-31 19:14:42.375 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.397 [info] > git rev-parse --show-toplevel [6ms]
+2024-01-31 19:14:42.397 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:42.452 [info] > git rev-parse --show-toplevel [46ms]
+2024-01-31 19:14:42.453 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:14:47.214 [info] > git rev-parse --show-toplevel [27ms]
+2024-01-31 19:14:47.215 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-31 19:15:53.142 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-31 19:15:53.157 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-01-31 19:15:53.174 [info] Open repository: /home/jagaimo
+2024-01-31 19:15:53.195 [info] > git config --get commit.template [4ms]
+2024-01-31 19:15:53.214 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index refs/remotes/feature-product-index [4ms]
+2024-01-31 19:15:53.276 [info] > git status -z -uall [53ms]
+2024-01-31 19:15:53.325 [info] > git config --get commit.template [1ms]
+2024-01-31 19:15:53.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index refs/remotes/feature-product-index [1ms]
+2024-01-31 19:15:53.364 [info] > git status -z -uall [23ms]
+2024-01-31 19:15:53.603 [info] > git show --textconv :tmp/local_secret.txt [9ms]
+2024-01-31 19:15:53.606 [info] > git ls-files --stage -- /home/jagaimo/tmp/local_secret.txt [4ms]
+2024-01-31 19:15:53.745 [info] > git check-ignore -v -z --stdin [8ms]
+2024-01-31 19:15:56.671 [info] > git check-ignore -v -z --stdin [38ms]
+2024-01-31 19:15:57.601 [info] > git check-ignore -v -z --stdin [3ms]
+2024-01-31 19:15:59.440 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-31 19:16:00.090 [info] > git check-ignore -v -z --stdin [3ms]
+2024-01-31 19:16:01.399 [info] > git check-ignore -v -z --stdin [10ms]
+2024-01-31 19:16:02.627 [info] > git check-ignore -v -z --stdin [5ms]
+2024-01-31 19:16:09.400 [info] > git check-ignore -v -z --stdin [4ms]
+2024-01-31 19:16:10.505 [info] > git check-ignore -v -z --stdin [3ms]
+2024-01-31 19:16:12.092 [info] > git check-ignore -v -z --stdin [5ms]
+2024-01-31 19:16:13.107 [info] > git check-ignore -v -z --stdin [4ms]
+2024-01-31 19:16:13.861 [info] > git check-ignore -v -z --stdin [7ms]
+2024-01-31 19:16:14.978 [info] > git check-ignore -v -z --stdin [3ms]
+2024-01-31 19:16:17.610 [info] > git check-ignore -v -z --stdin [8ms]
+2024-01-31 19:16:20.244 [info] > git check-ignore -v -z --stdin [5ms]
+2024-01-31 19:16:24.992 [info] > git check-ignore -v -z --stdin [5ms]
+2024-01-31 19:16:25.892 [info] > git check-ignore -v -z --stdin [5ms]

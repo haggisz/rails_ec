@@ -1,0 +1,8 @@
+2024-01-31 19:08:38.779 [error] Error: Unable to resolve nonexistent file '/home/jagaimo/jagaimo/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024013109'
+    at h.resolve (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:109:13307)
+    at async V.F (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:159:77445)
+    at async Promise.all (index 2)
+    at async c.listExtensions (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:130:8650)
+    at async /home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:169:81213
+    at async $e.run (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:169:80976)
+    at async q (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:169:83378)
