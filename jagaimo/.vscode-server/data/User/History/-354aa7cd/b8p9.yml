@@ -11,13 +11,13 @@ jobs:
     steps:
     - name: Create rails master key for build
       run: |
-        touch $HOME/master.key
-        cat run/secrets/master_key > $HOME/master.key
+        touch $GITHUB_WORKSPACE/master.key
+        echo ${{ secrets.RAILS_MASTER_KEY }} > $GITHUB_WORKSPACE/master.key
     - name: checkout pushed commit
       uses: actions/checkout@v2
       with:
         ref: ${{ github.event.pull_request.head.sha }}
-    - name: run htmlbeautifier on docker compose
+    - name: run htmlbeautifier on docker-compose
       run: |
         DOCKER_BUILDKIT=1 docker compose build
         docker compose run --rm web bin/setup

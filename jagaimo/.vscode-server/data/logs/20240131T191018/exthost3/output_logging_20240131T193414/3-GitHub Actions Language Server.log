@@ -1,0 +1,3 @@
+[Error - 8:25:43 PM] Error while completing expression: 'Unexpected symbol: '$H/'. Located at position 7 within expression: touch $H/'
+[Error - 8:26:01 PM] Error while completing expression: 'Unexpected symbol: '}}'. Located at position 26 within expression: secrets.RAILS_MASTER_KEY }} > $G'
+[Error - 8:26:02 PM] Error while completing expression: 'Unexpected symbol: '}}'. Located at position 26 within expression: secrets.RAILS_MASTER_KEY }} > $H'
