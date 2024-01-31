@@ -1,0 +1,12 @@
+2024-01-30 13:49:48.102 [info] Extension host with pid 67560 started
+2024-01-30 13:49:48.165 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-30 13:49:48.170 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+2024-01-30 13:49:48.258 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/f855b8e3f3189b7b56014d1c87ce3011/vscode.lock': Lock acquired.
+2024-01-30 13:49:48.310 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-30 13:49:48.311 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-30 13:49:48.698 [info] Eager extensions activated
+2024-01-30 13:49:48.699 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-30 13:49:48.700 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-30 13:49:48.700 [info] ExtensionService#_doActivateExtension smallStall.auto-arrange-tabs, startup: false, activationEvent: 'onStartupFinished'
+2024-01-30 13:49:54.010 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-30 13:51:43.992 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

@@ -77,3 +77,9 @@ ks
 exit
 docker
 devcontainer up
+docker compose run web rails c
+docker compose exec web rails c
+rails c
+rails c
+
+rails credentials:edit

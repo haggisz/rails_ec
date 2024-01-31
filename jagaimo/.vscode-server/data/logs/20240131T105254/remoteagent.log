@@ -1,0 +1,12 @@
+2024-01-31 10:52:54.164 [info] 
+
+
+
+
+2024-01-31 10:52:54.185 [info] Extension host agent started.
+2024-01-31 10:52:54.255 [debug] Removing uninstalled extensions: ["shopify.ruby-lsp-0.5.8"]
+2024-01-31 10:52:54.291 [info] [127.0.0.1][2e412e0d][ManagementConnection] New connection established.
+2024-01-31 10:52:54.318 [info] Log level changed to info
+2024-01-31 10:52:54.555 [info] Deleted uninstalled extension from disk shopify.ruby-lsp /home/jagaimo/jagaimo/.vscode-server/extensions/shopify.ruby-lsp-0.5.8
+2024-01-31 10:52:55.622 [info] [127.0.0.1][660f6ef4][ExtensionHostConnection] New connection established.
+2024-01-31 10:52:55.649 [info] [127.0.0.1][660f6ef4][ExtensionHostConnection] <420> Launched Extension Host Process.

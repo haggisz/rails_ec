@@ -1,0 +1,9 @@
+2024-01-30 20:44:41.086 [info] Extension host with pid 68879 started
+2024-01-30 20:44:41.199 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-30 20:44:41.203 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+2024-01-30 20:44:41.441 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-30 20:44:41.442 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-30 20:44:41.785 [info] Eager extensions activated
+2024-01-30 20:44:41.785 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-30 20:44:41.786 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-30 20:44:41.787 [info] ExtensionService#_doActivateExtension smallStall.auto-arrange-tabs, startup: false, activationEvent: 'onStartupFinished'

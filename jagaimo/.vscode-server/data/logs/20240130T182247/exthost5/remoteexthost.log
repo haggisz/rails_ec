@@ -1,0 +1,126 @@
+2024-01-30 20:58:14.225 [info] Extension host with pid 3026 started
+2024-01-30 20:58:14.249 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/05eec0cb8e9457c43af9fade71b95ad7/vscode.lock': Lock acquired.
+2024-01-30 20:58:14.320 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-30 20:58:14.424 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-30 20:58:14.427 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+2024-01-30 20:58:14.584 [info] ExtensionService#_doActivateExtension Shopify.ruby-lsp, startup: true, activationEvent: 'workspaceContains:Gemfile.lock'
+2024-01-30 20:58:14.889 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-30 20:58:14.893 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-30 20:58:15.669 [info] ExtensionService#_doActivateExtension github.vscode-github-actions, startup: true, activationEvent: 'workspaceContains:**/.github/workflows/**'
+2024-01-30 20:58:16.013 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-01-30 20:58:16.014 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-01-30 20:58:24.441 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-30 20:58:24.441 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-30 20:58:24.442 [info] ExtensionService#_doActivateExtension smallStall.auto-arrange-tabs, startup: false, activationEvent: 'onStartupFinished'
+2024-01-30 20:58:33.830 [info] Extension host terminating: received terminate message from renderer
+2024-01-30 20:58:33.831 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/05eec0cb8e9457c43af9fade71b95ad7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-01-30 20:58:33.920 [error] Canceled: Canceled
+	at new g (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at u.U (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at b.registerCommand.description (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:924696)
+	at n.y (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:940613)
+	at /home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:945552)
+	at l.<anonymous> (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at l.dispose (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at l.<anonymous> (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:926708)
+	at l.dispose (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at f.value (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:7849)
+	at n.y (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at o.fire (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:14039)
+	at d.z (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:17104)
+	at f.value (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:15556)
+	at n.y (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at f.acceptChunk (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:11813)
+	at f.value (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:11100)
+	at n.y (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:19527)
+	at n.acceptFrame (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:19333)
+	at i.n (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:17832)
+	at /home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:15052
+	at Socket.E (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:12957)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-01-30 20:58:33.922 [error] Canceled: Canceled
+	at new g (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at u.U (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at b.registerCommand.description (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at set b [as b] (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/dist/extension.js:2:322364)
+	at /home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/dist/extension.js:2:323005
+	at f.value (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:1016450)
+	at n.y (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:940613)
+	at /home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:945552)
+	at l.<anonymous> (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at l.dispose (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at l.<anonymous> (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:926708)
+	at l.dispose (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at f.value (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:7849)
+	at n.y (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at o.fire (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:14039)
+	at d.z (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:17104)
+	at f.value (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:15556)
+	at n.y (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at f.acceptChunk (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:11813)
+	at f.value (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:11100)
+	at n.y (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:19527)
+	at n.acceptFrame (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:19333)
+	at i.n (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:17832)
+	at /home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:15052
+	at Socket.E (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:12957)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-01-30 20:58:33.924 [info] Eager extensions activated
+2024-01-30 20:58:33.934 [info] Extension host with pid 3026 exiting with code 0
