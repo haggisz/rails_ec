@@ -6,10 +6,7 @@ services:
     environment:
       - POSTGRES_PASSWORD=password
   web:
-    build:
-    context: .
-     secrets:
-      - master_key
+    build: .
     command: >
       sh -c "
       rm -fr tmp/pids/ /home/jagaimo/tmp/pids/ &&
@@ -28,6 +25,9 @@ services:
       GROUP_ID: 1000
       TZ: Asia/Tokyo
     init: true
+    secrets:
+        - master_key
+
   js:
     build: .
     volumes:

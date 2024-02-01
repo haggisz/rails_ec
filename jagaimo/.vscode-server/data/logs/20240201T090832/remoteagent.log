@@ -9,3 +9,20 @@
 2024-02-01 09:08:33.476 [info] [127.0.0.1][a879a7a7][ExtensionHostConnection] New connection established.
 2024-02-01 09:08:33.481 [info] Log level changed to info
 2024-02-01 09:08:33.527 [info] [127.0.0.1][a879a7a7][ExtensionHostConnection] <309> Launched Extension Host Process.
+2024-02-01 09:53:06.051 [info] [127.0.0.1][ea6eb9f1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-01 09:53:06.216 [info] [127.0.0.1][a879a7a7][ExtensionHostConnection] <309> Extension Host Process exited with code: 0, signal: null.
+2024-02-01 09:53:10.321 [info] [127.0.0.1][d993e2ce][ManagementConnection] New connection established.
+2024-02-01 09:53:10.329 [info] [127.0.0.1][a4e3601d][ExtensionHostConnection] New connection established.
+2024-02-01 09:53:10.344 [info] [127.0.0.1][a4e3601d][ExtensionHostConnection] <31330> Launched Extension Host Process.
+2024-02-01 09:53:26.245 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-01 09:53:26.246 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-01 09:53:33.013 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-01 09:53:33.014 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-01 09:53:39.690 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-01 09:53:39.690 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-01 09:53:46.345 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-01 09:53:46.346 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-01 09:53:53.212 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-01 09:53:53.213 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-01 09:53:59.809 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-01 09:53:59.809 [error] [File Watcher (universal)] gave up attempting to restart watcher after error: No such file or directory

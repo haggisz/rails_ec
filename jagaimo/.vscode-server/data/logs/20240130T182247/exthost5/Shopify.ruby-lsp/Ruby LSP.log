@@ -1,1 +1,0 @@
-2024-01-30 20:58:15.854 [info] (jagaimo) Trying to activate Ruby environment with command: /bin/bash -i -c 'rbenv exec ruby -rjson -e "STDERR.printf(%{RUBY_ENV_ACTIVATE%sRUBY_ENV_ACTIVATE}, JSON.dump({ env: ENV.to_h, ruby_version: RUBY_VERSION, yjit: defined?(RubyVM::YJIT) }))"' inside directory: /home/jagaimo

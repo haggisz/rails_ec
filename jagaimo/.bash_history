@@ -83,3 +83,15 @@ rails c
 rails c
 
 rails credentials:edit
+git add .
+git commit -m 'docker.ymle/を/run/に変更'
+git branch
+git push origin feature-product-index
+git add .
+git commit -m 'docker.yml servise.build.secretsに変更'
+git branch
+git push origin feature-product-index
+git add .
+git commit -m 'compose.yaml master.keyのパスを変更'
+git branch
+git push origin feature-product-index
