@@ -47,4 +47,4 @@ volumes:
 
 secrets:
   master_key:
-    file: ./config/master.key
+    file: /home/jagaimo/master.key
