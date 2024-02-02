@@ -1,0 +1,71 @@
+2024-02-02 18:05:58.664 [info] Log level: Info
+2024-02-02 18:05:58.664 [info] Validating found git in: "git"
+2024-02-02 18:05:58.664 [info] Using git "2.30.2" from "git"
+2024-02-02 18:05:58.664 [info] > git rev-parse --show-toplevel [8ms]
+2024-02-02 18:05:58.664 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:58.664 [info] > git rev-parse --show-toplevel [21ms]
+2024-02-02 18:05:58.668 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-02-02 18:05:58.689 [info] Open repository: /home/jagaimo
+2024-02-02 18:05:58.719 [info] > git config --get commit.template [12ms]
+2024-02-02 18:05:58.722 [info] > git rev-parse --show-toplevel [8ms]
+2024-02-02 18:05:58.722 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:58.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index refs/remotes/feature-product-index [23ms]
+2024-02-02 18:05:58.800 [info] > git rev-parse --show-toplevel [38ms]
+2024-02-02 18:05:58.800 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:58.821 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-02 18:05:58.821 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-02 18:05:58.835 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-02 18:05:58.835 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:58.853 [info] > git status -z -uall [67ms]
+2024-02-02 18:05:58.853 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-02 18:05:58.853 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:58.928 [info] > git config --get commit.template [3ms]
+2024-02-02 18:05:58.928 [info] > git rev-parse --show-toplevel [14ms]
+2024-02-02 18:05:58.928 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:58.959 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index refs/remotes/feature-product-index [10ms]
+2024-02-02 18:05:58.969 [info] > git rev-parse --show-toplevel [31ms]
+2024-02-02 18:05:58.969 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:59.338 [info] > git status -z -uall [370ms]
+2024-02-02 18:05:59.387 [info] > git rev-parse --show-toplevel [52ms]
+2024-02-02 18:05:59.387 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:59.406 [info] > git check-ignore -v -z --stdin [40ms]
+2024-02-02 18:05:59.430 [info] > git rev-parse --show-toplevel [28ms]
+2024-02-02 18:05:59.431 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:59.645 [info] > git rev-parse --show-toplevel [203ms]
+2024-02-02 18:05:59.645 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:59.661 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-02 18:05:59.661 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-02 18:05:59.679 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-02 18:05:59.679 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:59.688 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-02 18:05:59.688 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:59.697 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-02 18:05:59.697 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:59.720 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-02 18:05:59.720 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-02 18:05:59.740 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-02 18:05:59.740 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:59.749 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-02 18:05:59.749 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:59.765 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-02 18:05:59.765 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-02 18:05:59.839 [info] > git show --textconv :tmp/local_secret.txt [58ms]
+2024-02-02 18:05:59.874 [info] > git ls-files --stage -- /home/jagaimo/tmp/local_secret.txt [84ms]
+2024-02-02 18:06:00.211 [info] > git show --textconv :compose.yaml [18ms]
+2024-02-02 18:06:00.220 [info] > git ls-files --stage -- /home/jagaimo/compose.yaml [11ms]
+2024-02-02 18:06:00.247 [info] > git cat-file -s 0f762205998ad6de43adeab4d04f63d63c4c4e6b [10ms]
+2024-02-02 18:06:00.594 [info] > git check-ignore -v -z --stdin [26ms]
+2024-02-02 18:06:01.277 [info] > git config --get commit.template [1ms]
+2024-02-02 18:06:01.339 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index refs/remotes/feature-product-index [4ms]
+2024-02-02 18:06:01.422 [info] > git status -z -uall [62ms]
+2024-02-02 18:06:02.753 [info] > git check-ignore -v -z --stdin [19ms]
+2024-02-02 18:06:04.267 [info] > git check-ignore -v -z --stdin [10ms]
+2024-02-02 18:06:12.179 [info] > git check-ignore -v -z --stdin [6ms]
+2024-02-02 18:06:13.357 [info] > git check-ignore -v -z --stdin [17ms]
+2024-02-02 18:06:15.754 [info] > git check-ignore -v -z --stdin [6ms]
+2024-02-02 18:06:16.130 [info] > git show --textconv :compose.yaml [35ms]
+2024-02-02 18:06:16.133 [info] > git ls-files --stage -- /home/jagaimo/compose.yaml [20ms]
+2024-02-02 18:06:16.146 [info] > git cat-file -s 0f762205998ad6de43adeab4d04f63d63c4c4e6b [1ms]

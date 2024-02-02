@@ -5,4 +5,4 @@
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
 [credential]
-	helper = "!f() { /home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node /tmp/vscode-remote-containers-8adfe817-afb7-4058-adf9-fce391e77a92.js git-credential-helper $*; }; f"
+	helper = "!f() { /home/jagaimo/jagaimo/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/node /tmp/vscode-remote-containers-d2416e15-0a0f-472d-a9bf-0f2e61c85b47.js git-credential-helper $*; }; f"

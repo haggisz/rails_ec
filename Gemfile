@@ -7,6 +7,7 @@ ruby '3.2.1'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'bundler', '~> 2.5.4'
+gem 'foreman', '~> 0.87.2'
 gem 'rails', '~> 7.1.3'
 gem 'rails-i18n'
 
