@@ -1,0 +1,14 @@
+2024-02-02 18:26:56.994 [info] Extension host with pid 396 started
+2024-02-02 18:26:57.032 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-02 18:26:57.034 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+2024-02-02 18:26:57.131 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/e786c0c08712138b8b4b4179b78b3d5d/vscode.lock': Lock acquired.
+2024-02-02 18:26:57.193 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-02 18:26:57.193 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-02 18:27:04.038 [info] Not activating extension 'github.vscode-github-actions': Timed out while searching for 'workspaceContains' pattern **/.github/workflows/**
+2024-02-02 18:27:04.044 [info] Eager extensions activated
+2024-02-02 18:27:04.045 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-02 18:27:04.046 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-02 18:27:04.046 [info] ExtensionService#_doActivateExtension smallStall.auto-arrange-tabs, startup: false, activationEvent: 'onStartupFinished'
+2024-02-02 18:28:36.237 [info] ExtensionService#_doActivateExtension Shopify.ruby-lsp, startup: false, activationEvent: 'onLanguage:ruby'
+2024-02-02 18:28:36.238 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-02 18:34:01.697 [info] ExtensionService#_doActivateExtension github.vscode-github-actions, startup: false, activationEvent: 'onLanguage:github-actions-workflow'

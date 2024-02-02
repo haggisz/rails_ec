@@ -15,3 +15,9 @@
 2024-02-02 18:06:17.012 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
 2024-02-02 18:06:26.167 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
 2024-02-02 18:06:26.168 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-02 18:06:35.376 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-02 18:06:35.377 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-02 18:06:43.591 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-02 18:06:43.591 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-02 18:06:52.057 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-02 18:06:52.059 [error] [File Watcher (universal)] gave up attempting to restart watcher after error: No such file or directory
