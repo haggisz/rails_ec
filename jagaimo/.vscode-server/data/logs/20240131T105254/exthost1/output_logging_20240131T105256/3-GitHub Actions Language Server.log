@@ -1,3 +1,0 @@
-[Error - 5:04:55 PM] Unhandled error while validating: Unexpected type 'NullToken' encountered while reading 'workflow env'. The type 'MappingToken' was expected.
-[Error - 5:04:55 PM] Unhandled error while validating: Unexpected type 'NullToken' encountered while reading 'workflow env'. The type 'MappingToken' was expected.
-[Error - 5:05:11 PM] Unhandled error while validating: Unexpected type 'NullToken' encountered while reading 'workflow env'. The type 'MappingToken' was expected.

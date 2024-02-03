@@ -8,6 +8,9 @@ services:
   web:
     build:
       context: .
+      secrets:
+        - source: master_key
+          target: master.key
     command: >
       sh -c "
       rm -fr tmp/pids/ /home/jagaimo/tmp/pids/ &&
@@ -43,3 +46,6 @@ volumes:
   db:
   bundle:
 
+secrets:
+  master_key:
+    file: ./config/master.key

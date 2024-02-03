@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Create rails master key for build
-      env: master_key: ${{secrets.master_key}}
+      env: 
       run: |
         touch $HOME/master.key
-        echo master_key > $HOME/master.key
+        cat /run/secrets/master_key > $HOME/master.key
     - name: checkout pushed commit
       uses: actions/checkout@v2
       with:

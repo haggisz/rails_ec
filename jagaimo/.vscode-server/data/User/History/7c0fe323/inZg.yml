@@ -10,17 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Create rails master key for build
-      env: master_key: ${{secrets.master_key}}
       run: |
         touch $HOME/master.key
-        echo master_key > $HOME/master.key
+        cat /run/secrets/master_key > $HOME/master.key
     - name: checkout pushed commit
       uses: actions/checkout@v2
       with:
         ref: ${{ github.event.pull_request.head.sha }}
     - name: run htmlbeautifier on docker compose
       run: |
-        docker-compose build
-        docker-compose run --rm web bin/setup
-        docker-compose run --rm web bin/htmlbeautifier
+        DOCKER_BUILDKIT=1 docker compose build
+        docker compose run --rm web bin/setup
+        docker compose run --rm web bin/htmlbeautifier
         git diff --exit-code

@@ -8,6 +8,8 @@ services:
   web:
     build:
       context: .
+      secrets:
+        - master_key
     command: >
       sh -c "
       rm -fr tmp/pids/ /home/jagaimo/tmp/pids/ &&
@@ -43,3 +45,6 @@ volumes:
   db:
   bundle:
 
+secrets:
+  master_key:
+    file: ./config/master.key
