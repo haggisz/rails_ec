@@ -11,10 +11,10 @@ jobs:
     steps:
     - name: Create rails master key for build
       env:
-        Master_Key: ${{secrets.master_key}}
+        master_keyaster_key: ${{secrets.master_key}}
       run: |
         touch $HOME/master.key
-        echo $Master_Key > $HOME/master.key
+        echo master_key > $HOME/master.key
     - name: checkout pushed commit
       uses: actions/checkout@v2
       with:

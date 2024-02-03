@@ -14,7 +14,7 @@ jobs:
         Master_Key: ${{secrets.master_key}}
       run: |
         touch $HOME/master.key
-        echo $Master_Key > $HOME/master.key
+        echo master_key > $HOME/master.key
     - name: checkout pushed commit
       uses: actions/checkout@v2
       with:
