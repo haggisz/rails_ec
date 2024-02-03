@@ -12,7 +12,6 @@ jobs:
     name: Run htmlbeautifier
     runs-on: ubuntu-latest
     steps:
-    - name: Create rails master key for build
     - name: checkout pushed commit
       uses: actions/checkout@v2
       with:
