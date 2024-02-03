@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ "main" ]
 env:
-  RAILS_ENV: test
+
   RAILS_MASTER_KEY: ${{secrets.master_key}}
 jobs:
   run-htmlbeautifier:
