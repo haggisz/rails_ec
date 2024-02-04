@@ -21,3 +21,20 @@
 2024-02-04 11:48:47.500 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
 2024-02-04 11:48:56.256 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
 2024-02-04 11:48:56.258 [error] [File Watcher (universal)] gave up attempting to restart watcher after error: No such file or directory
+2024-02-04 11:56:43.180 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 11:57:04.584 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 11:57:18.071 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 11:58:19.865 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 11:58:42.064 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 11:59:23.230 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 12:00:05.655 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 12:00:47.775 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 12:02:18.799 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 12:02:33.885 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 12:03:30.310 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 12:03:50.088 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-04 12:04:26.998 [info] [127.0.0.1][34d9c44f][ExtensionHostConnection] <405> Extension Host Process exited with code: null, signal: SIGKILL.
+2024-02-04 12:04:27.431 [info] [127.0.0.1][a76fc603][ManagementConnection] The client has reconnected.
+2024-02-04 12:04:27.530 [error] [127.0.0.1][34d9c44f][ExtensionHostConnection] Unknown reconnection token (seen before).
+2024-02-04 12:04:27.691 [info] [127.0.0.1][84e97d62][ExtensionHostConnection] New connection established.
+2024-02-04 12:04:27.705 [info] [127.0.0.1][84e97d62][ExtensionHostConnection] <6150> Launched Extension Host Process.
