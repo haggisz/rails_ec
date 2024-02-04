@@ -17,6 +17,7 @@ jobs:
     - name: run htmlbeautifier on docker compose
       env:
         RAILS_ENV: test
+
       run: |
         docker-compose build
         docker-compose run --rm web bin/setup
