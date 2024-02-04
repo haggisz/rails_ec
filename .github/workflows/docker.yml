@@ -18,6 +18,7 @@ jobs:
       env:
         RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}
       run: |
+        cat $RAILS_MASTER_KEY
         docker-compose build
         docker-compose run --rm web bin/setup
         docker-compose run --rm web bin/htmlbeautifier
