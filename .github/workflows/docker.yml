@@ -18,7 +18,7 @@ jobs:
       env:
         RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}
       run: |
-        cat $RAILS_MASTER_KEY
+        echo 'master デバック'
         echo $RAILS_MASTER_KEY
         docker-compose build
         docker-compose run --rm web bin/setup
