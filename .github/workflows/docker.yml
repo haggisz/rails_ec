@@ -19,6 +19,6 @@ jobs:
         RAILS_ENV: development
       run: |
         docker-compose build
-        docker-compose run --rm web bin/setup
-        docker-compose run --rm web bin/htmlbeautifier
+        docker-compose run --rm web bin/setup SECRET_KEY_BASE_DUMMY=1
+        docker-compose run --rm web bin/htmlbeautifier SECRET_KEY_BASE_DUMMY=1
         git diff --exit-code
