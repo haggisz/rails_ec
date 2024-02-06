@@ -4,21 +4,34 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_call:
+    inputs:
+      deploy-env:
+        description: |
+          Deploy Environment
+        type: string
+        required: true
+      branch:
+        description: branch to deploy
+        type: string
+        required: true
+      git-log-depth:
+        description: checkout depth for git log
+        type: number
+        required: false
+        default: 100
 jobs:
   run-htmlbeautifier:
     name: Run htmlbeautifier
     runs-on: ubuntu-latest
     steps:
-    - name: Create rails master key for build
-      env: 
-      run: |
-        touch $HOME/master.key
-        cat /run/secrets/master_key > $HOME/master.key
     - name: checkout pushed commit
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         ref: ${{ github.event.pull_request.head.sha }}
     - name: run htmlbeautifier on docker compose
+      env:
+        RAILS_ENV: test
       run: |
         docker-compose build
         docker-compose run --rm web bin/setup

@@ -39,5 +39,5 @@ jobs:
         run: |
           docker-compose build
           docker-compose run -u root --rm web bin/setup
-          docker-compose run -u root --rm web bin/htmlbeautifier
+          docker-compose run --rm web bin/htmlbeautifier
           git diff --exit-code
