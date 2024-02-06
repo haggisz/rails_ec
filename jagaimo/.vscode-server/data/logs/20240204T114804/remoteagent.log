@@ -38,3 +38,5 @@
 2024-02-04 12:04:27.530 [error] [127.0.0.1][34d9c44f][ExtensionHostConnection] Unknown reconnection token (seen before).
 2024-02-04 12:04:27.691 [info] [127.0.0.1][84e97d62][ExtensionHostConnection] New connection established.
 2024-02-04 12:04:27.705 [info] [127.0.0.1][84e97d62][ExtensionHostConnection] <6150> Launched Extension Host Process.
+2024-02-04 18:42:33.709 [info] [127.0.0.1][a76fc603][ManagementConnection] The client has reconnected.
+2024-02-04 18:42:33.980 [info] [127.0.0.1][84e97d62][ExtensionHostConnection] The client has reconnected.

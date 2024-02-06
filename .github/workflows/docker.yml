@@ -19,6 +19,6 @@ jobs:
         RAILS_ENV: test
       run: |
         docker-compose build
-        docker-compose run --rm web bin/setup
-        docker-compose run --rm web bin/htmlbeautifier
+        docker-compose run --rm web bin/setup RAILS_ENV
+        docker-compose run --rm web bin/htmlbeautifier RAILS_ENV
         git diff --exit-code
