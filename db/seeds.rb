@@ -20,7 +20,7 @@ User.create!(
     name: '仮',
     body: 'aaa',
     price: '300円',
-    action: 'オプションを見る'
+    action: 'オプションを見る',
     image: product_first.image.attach(io: File.open(Rails.root.join('app/assets/images/cat.png')), filename: 'cat.png')
   )
 
@@ -29,7 +29,7 @@ User.create!(
     name: '人気',
     body: 'ccc',
     price: '300円',
-    action: 'カートに入れる'
+    action: 'カートに入れる',
     image: product_second.image.attach(io: File.open(Rails.root.join('app/assets/images/cat.png')), filename: 'cat.png')
 
   )
