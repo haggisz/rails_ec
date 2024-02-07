@@ -21,7 +21,7 @@ User.create!(
     body: 'aaa',
     price: '300円',
     action: 'オプションを見る',
-    image: product_first.image.attach(io: File.open(Rails.root.join('app/assets/images/cat.png')), filename: 'cat.png')
+    image: image.attach(io: File.open(Rails.root.join('app/assets/images/cat.png')), filename: 'cat.png')
   )
 
 
@@ -30,7 +30,7 @@ User.create!(
     body: 'ccc',
     price: '300円',
     action: 'カートに入れる',
-    image: product_second.image.attach(io: File.open(Rails.root.join('app/assets/images/cat.png')), filename: 'cat.png')
+    image: image.attach(io: File.open(Rails.root.join('app/assets/images/cat.png')), filename: 'cat.png')
 
   )
 end
