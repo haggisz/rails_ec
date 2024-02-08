@@ -21,7 +21,7 @@ User.create!(
     body: 'aaa',
     price: '300円',
     action: 'オプションを見る',
-    image: image.attach(io: File.open(Rails.root.join('app/assets/images/cat.png')), filename: 'cat.png')
+    image: ActiveStorage::Blob.create_before_direct_upload!(io: File.open(Rails.root.join('app/assets/images/cat.png')), filename: 'cat.png')
   )
 
 
@@ -30,7 +30,6 @@ User.create!(
     body: 'ccc',
     price: '300円',
     action: 'カートに入れる',
-    image: image.attach(io: File.open(Rails.root.join('app/assets/images/cat.png')), filename: 'cat.png')
-
+    image: ActiveStorage::Blob.create_before_direct_upload!(io: File.open(Rails.root.join('app/assets/images/cat.png')), filename: 'cat.png')
   )
 end
