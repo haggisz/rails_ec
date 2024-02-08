@@ -21,7 +21,7 @@ User.create!(
     body: 'aaa',
     price: '300円',
     action: 'オプションを見る',
-    image: ActiveStorage::Blob.create_before_direct_upload!(io: File.open(Rails.root.join('app/assets/images/cat.png')), filename: 'cat.png', byte_size: byte_size, checksum: checksum)
+    image: ActiveStorage::Blob.create_before_direct_upload!(io: File.open(Rails.root.join('app/assets/images/cat.png')), filename: 'cat.png', byte_size:, checksum:)
   )
 
 
