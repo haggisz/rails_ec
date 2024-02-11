@@ -5,7 +5,6 @@ require:
   - rubocop-rspec
   - rubocop-capybara
   - rubocop-factory_bot
-  - rubocop-minitest
 
 Style/HashEachMethods:
   Enabled: true
