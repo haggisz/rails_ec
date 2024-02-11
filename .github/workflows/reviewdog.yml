@@ -18,7 +18,7 @@ jobs:
         with:
           bundler-cache: true
       - name: Run rubocop with reviewdog
-        uses: reviewdog/action-rubocop@v2
+        uses: reviewdog/action-rubocop@v2.8.0
         with:
           rubocop_version: gemfile
           rubocop_extensions: rubocop-rails:gemfile rubocop-rspec:gemfile
