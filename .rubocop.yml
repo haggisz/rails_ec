@@ -6,6 +6,8 @@ require:
   - rubocop-capybara
   - rubocop-factory_bot
 
+AllCops:
+  NewCops: enable
 
 Style/HashEachMethods:
   Enabled: true
