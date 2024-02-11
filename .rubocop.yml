@@ -6,6 +6,7 @@ require:
   - rubocop-capybara
   - rubocop-factory_bot
 
+
 Style/HashEachMethods:
   Enabled: true
 Style/HashTransformKeys:
@@ -25,10 +26,6 @@ Style/FrozenStringLiteralComment:
 
 Style/RedundantSelf:
   Enabled: false
-Metrics/LineLength:
-  Max: 160
-  Exclude:
-    - "db/migrate/*.rb"
 Metrics/MethodLength:
   Max: 20
   Exclude:
@@ -42,6 +39,7 @@ Metrics/BlockLength:
     - config/environments/*.rb
     - config/routes.rb
 Layout/LineLength:
+  Max: 160
   Exclude:
     - config/initializers/devise.rb
     - db/migrate/*.rb
