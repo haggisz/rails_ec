@@ -1,0 +1,43 @@
+name: "【Docker】Ruby on Rails CI"
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_call:
+    inputs:
+      deploy-env:
+        description: |
+          Deploy Environment
+        type: string
+        required: true
+      branch:
+        description: branch to deploy
+        type: string
+        required: true
+      git-log-depth:
+        description: checkout depth for git log
+        type: number
+        required: false
+        default: 100
+jobs:
+  run-htmlbeautifier:
+    name: Run htmlbeautifier
+    runs-on: ubuntu-latest
+    concurrency:
+      group: build/${{ inputs.deploy-env }}
+      cancel-in-progress: true
+    steps:
+      - name: checkout pushed commit
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: ${{ inputs.git-log-depth }}
+      - name: run htmlbeautifier on docker compose
+        env:
+          RAILS_ENV: test
+        run: |
+          docker-compose build
+          docker-compose run -u root --rm web bin/setup
+          docker-compose run --rm web bin/htmlbeautifier
+          git diff --exit-code

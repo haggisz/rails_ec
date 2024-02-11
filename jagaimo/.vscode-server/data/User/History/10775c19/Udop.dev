@@ -1,0 +1,2 @@
+web: unset PORT && bin/rails server -b 0.0.0.0 -p 3000 RAILS_ENV
+css: bin/rails dartsass:watch RAILS_ENV

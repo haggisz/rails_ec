@@ -1,0 +1,25 @@
+name: "【Docker】Ruby on Rails CI"
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  run-htmlbeautifier:
+    name: Run htmlbeautifier
+    runs-on: ubuntu-latest
+    steps:
+    - name: Create rails master key for build
+      run: |
+        touch $HOME/master.key
+        echo ${{ secrets.RAILS_MASTER_KEY }} > $GITHUB_WORKSPACE/master.key
+    - name: checkout pushed commit
+      uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+    - name: run htmlbeautifier on docker compose
+      run: |
+        DOCKER_BUILDKIT=1 docker compose build
+        docker compose run --rm web bin/setup
+        docker compose run --rm web bin/htmlbeautifier
+        git diff --exit-code

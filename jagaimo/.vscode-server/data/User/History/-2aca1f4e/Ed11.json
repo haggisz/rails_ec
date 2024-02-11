@@ -1,0 +1,135 @@
+{
+    "ruby.useBundler": true,
+    "ruby.useLanguageServer": true,
+    "ruby.lint": {
+        "rubocop": {
+            "useBundler": true,
+            "except": [
+                "Metrics"
+            ]
+        }
+    },
+    "ruby.format": "rubocop",
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Ricty Diminished",
+    "editor.fontSize": 25,
+    "diffEditor.wordWrap": "on",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.enablePreview": false,
+    "[scss]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "editor.formatOnSave": true,
+    "debug.console.acceptSuggestionOnEnter": "on",
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on"
+    },
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "vscode-neovim.highlightGroups.highlights": {
+        "Directory": "vim",
+        "IncSearch": {
+            "backgroundColor": "theme.editor.findMatchBackground",
+            "borderColor": "theme.editor.findMatchBorder"
+        },
+        "Search": {
+            "backgroundColor": "theme.editor.findMatchHighlightBackground",
+            "borderColor": "theme.editor.findMatchHighlightBorder"
+        },
+        "Visual": {
+            "backgroundColor": "theme.editor.selectionBackground"
+        },
+        "Conceal": "vim",
+        "Substitute": "vim"
+    },
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "emmet.variables": {
+        "lang": "ja"
+    },
+    "html.format.indentInnerHtml": true,
+    "vscode-w3cvalidation.javaHome": "C:\\Program Files\\Java\\jdk-20",
+    "settingsSync.ignoredSettings": [
+        "-vscode-w3cvalidation.javaHome"
+    ],
+    "emmet.triggerExpansionOnTab": true,
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false,
+        "**/Thumbs.db": false
+    },
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "editor.indentSize": "tabSize",
+    "editor.glyphMargin": false,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontSize": 30,
+    "debug.console.fontSize": 30,
+    "editor.mouseWheelZoom": true,
+    "editor.letterSpacing": -0.3,
+    "editor.lineHeight": 27,
+    "explorer.openEditors.visible": 1,
+    "activitusbar.views": [
+        {
+            "name": "explorer",
+            "codicon": "explorer-view-icon"
+        },
+        {
+            "name": "search",
+            "codicon": "search-view-icon"
+        },
+        {
+            "name": "scm",
+            "codicon": "source-control-view-icon"
+        },
+        {
+            "name": "debug",
+            "codicon": "run-view-icon"
+        },
+        {
+            "name": "extensions",
+            "codicon": "extensions-view-icon"
+        }
+    ],
+    "editor.formatOnPaste": true,
+    "editor.autoIndent": "advanced",
+    "window.zoomLevel": 2,
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "search.useGlobalIgnoreFiles": true,
+    "workbench.tree.renderIndentGuides": "none"
+}

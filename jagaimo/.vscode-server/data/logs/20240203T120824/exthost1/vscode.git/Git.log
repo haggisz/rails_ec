@@ -1,0 +1,68 @@
+2024-02-03 12:08:28.264 [info] Log level: Info
+2024-02-03 12:08:28.264 [info] Validating found git in: "git"
+2024-02-03 12:08:28.264 [info] Using git "2.30.2" from "git"
+2024-02-03 12:08:28.264 [info] > git rev-parse --show-toplevel [10ms]
+2024-02-03 12:08:28.264 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.264 [info] > git rev-parse --show-toplevel [27ms]
+2024-02-03 12:08:28.266 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-02-03 12:08:28.299 [info] Open repository: /home/jagaimo
+2024-02-03 12:08:28.324 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-03 12:08:28.324 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.326 [info] > git config --get commit.template [14ms]
+2024-02-03 12:08:28.356 [info] > git rev-parse --show-toplevel [17ms]
+2024-02-03 12:08:28.356 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index refs/remotes/feature-product-index [16ms]
+2024-02-03 12:08:28.496 [info] > git status -z -uall [117ms]
+2024-02-03 12:08:28.497 [info] > git rev-parse --show-toplevel [132ms]
+2024-02-03 12:08:28.497 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-03 12:08:28.538 [info] > git rev-parse --show-toplevel [32ms]
+2024-02-03 12:08:28.538 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.552 [info] > git config --get commit.template [16ms]
+2024-02-03 12:08:28.557 [info] > git rev-parse --show-toplevel [9ms]
+2024-02-03 12:08:28.557 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.589 [info] > git rev-parse --show-toplevel [12ms]
+2024-02-03 12:08:28.589 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index refs/remotes/feature-product-index [24ms]
+2024-02-03 12:08:28.615 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-03 12:08:28.615 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.648 [info] > git status -z -uall [48ms]
+2024-02-03 12:08:28.655 [info] > git rev-parse --show-toplevel [7ms]
+2024-02-03 12:08:28.655 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.668 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-03 12:08:28.668 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.680 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-03 12:08:28.680 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.694 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-03 12:08:28.694 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-03 12:08:28.718 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-03 12:08:28.718 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.728 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-03 12:08:28.728 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.738 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-03 12:08:28.738 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.748 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-03 12:08:28.748 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-03 12:08:28.761 [info] > git rev-parse --show-toplevel [6ms]
+2024-02-03 12:08:28.761 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.769 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-03 12:08:28.769 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.778 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-03 12:08:28.778 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-03 12:08:28.905 [info] > git show --textconv :.github/workflows/docker.yml [21ms]
+2024-02-03 12:08:28.906 [info] > git ls-files --stage -- /home/jagaimo/.github/workflows/docker.yml [12ms]
+2024-02-03 12:08:28.913 [info] > git check-ignore -v -z --stdin [10ms]
+2024-02-03 12:08:28.916 [info] > git cat-file -s 501a30da1420a7aad9704c857f5be04bcf8d76c2 [5ms]
+2024-02-03 12:08:32.441 [info] > git config --get commit.template [3ms]
+2024-02-03 12:08:32.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index refs/remotes/feature-product-index [2ms]
+2024-02-03 12:08:32.542 [info] > git status -z -uall [65ms]
+2024-02-03 12:08:40.553 [info] > git check-ignore -v -z --stdin [5ms]
+2024-02-03 12:08:49.283 [info] > git check-ignore -v -z --stdin [4ms]
+2024-02-03 12:08:50.055 [info] > git check-ignore -v -z --stdin [4ms]
+2024-02-03 12:08:51.554 [info] > git check-ignore -v -z --stdin [7ms]
+2024-02-03 12:08:52.442 [info] > git check-ignore -v -z --stdin [4ms]
+2024-02-03 12:08:54.973 [info] > git show --textconv :compose.yaml [14ms]
+2024-02-03 12:08:54.977 [info] > git ls-files --stage -- /home/jagaimo/compose.yaml [4ms]
+2024-02-03 12:08:54.996 [info] > git cat-file -s 40f743997013010754cb4ee013a848ee66385c81 [2ms]

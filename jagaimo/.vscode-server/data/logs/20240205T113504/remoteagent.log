@@ -1,0 +1,23 @@
+2024-02-05 11:35:04.280 [info] 
+
+
+
+
+2024-02-05 11:35:04.297 [info] Extension host agent started.
+2024-02-05 11:35:04.363 [debug] No uninstalled extensions found.
+2024-02-05 11:35:04.366 [info] [127.0.0.1][a29da882][ManagementConnection] New connection established.
+2024-02-05 11:35:04.398 [info] Log level changed to info
+2024-02-05 11:35:04.647 [info] [127.0.0.1][a5c1b591][ExtensionHostConnection] New connection established.
+2024-02-05 11:35:04.669 [info] [127.0.0.1][a5c1b591][ExtensionHostConnection] <391> Launched Extension Host Process.
+2024-02-05 11:35:16.705 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-05 11:35:16.706 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-05 11:35:23.012 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-05 11:35:23.012 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-05 11:35:29.380 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '//proc/722/net/ipt_CLUSTERIP' failed: No such file or directory (EUNKNOWN) (path: /)
+2024-02-05 11:35:29.380 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '//proc/722/net/ipt_CLUSTERIP' failed: No such file or directory
+2024-02-05 11:35:35.566 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-05 11:35:35.566 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-05 11:35:41.838 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-05 11:35:41.838 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-05 11:35:48.055 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-05 11:35:48.056 [error] [File Watcher (universal)] gave up attempting to restart watcher after error: No such file or directory

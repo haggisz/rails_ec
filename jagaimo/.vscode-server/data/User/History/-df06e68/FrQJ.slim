@@ -1,0 +1,55 @@
+div.container.h-100.px-3.px-lg-4.mt-5
+  div.p-2.mx-1.text-center
+    span.fs-2.fw-bold
+      | Products
+  div.d-flex.flex-wrap
+    div.flex-none.w-100.mw-100
+      = link_to new_admin_product_path, class: 'd-inline-flex btn btn-primary p-2 link-offset-2  ' do
+        span
+          | Add New Product
+      .mb-5.position-relative.d-flex.flex-column.min-w-0.break-words.bg-white.border-0.border-transparent.border-solid.shadow-sm-xl.rounded-2-x
+        .flex-fill
+          .overflow-auto
+            div.table-responsive
+              table.table.align-middle.w-100
+                thead
+                  tr
+                    th.text-nowrap.text-center.px-6.py-3 scope='col'
+                      | IMAGE & NAME
+                    th.px-5.py-3.text-center scope='col'
+                      | PRICE
+                    th.px-5.py-3.text-center scope='col'
+                      | RATE
+                    th.px-5.py-3. scope='col'
+                      | ACTION
+                    th.px-5.py-3. scope='col'
+                      | EDIT
+                tbody
+                  - @products.each do |product|
+                    tr
+                      td.p-1.align-middle
+                        = link_to admin_product_path(product) do
+                          div.d-flex
+                            div.w-15.me-4
+                              = image_tag product.image, size: '50x50', class: 'd-inline-flex align-items-center justify-content-center ms-4 img-fluid'
+                            div.d-flex.flex-col.justify-content-center.align-items-center
+                              div
+                                = product.name
+                      td.p-1.align-middle
+                        div.text-center
+                          span
+                            = number_to_currency(product.price, unit: '¥', strip_insignificant_zeros: true)
+                      td.p-1.align-middle
+                        .d-flex.justify-content-center.small.text-warning
+                          .bi-star-fill
+                          .bi-star-fill
+                          .bi-star-fill
+                          .bi-star-fill
+                          .bi-star-fill
+                      td.p-1.align-middle
+                        .text-center
+                          = link_to product.action, controller: :products, action: :show, id: product.id, class: 'btn btn-outline-dark.mt-auto stretched-link'
+                      td.p-1.align-middle
+                        .text-center
+                          = link_to edit_admin_product_path(product), class: 'flex-fill btn btn-primary' do
+                            | Edit Product

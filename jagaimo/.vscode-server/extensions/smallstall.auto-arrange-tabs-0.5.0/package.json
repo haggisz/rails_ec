@@ -1,0 +1,80 @@
+{
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"categories": [
+		"Other"
+	],
+	"contributes": {
+		"configuration": {
+			"properties": {
+				"auto-arrange-tabs.fixTabs": {
+					"default": 3,
+					"markdowDescription": "Specifies number of fixed tabs from left side. They don't move when time is reached",
+					"maximum": 9,
+					"minimum": 1,
+					"scope": "resource",
+					"type": "number"
+				},
+				"auto-arrange-tabs.millis": {
+					"default": 3000,
+					"markdowDescription": "Specifies the number of milliseconds to move the tab from activation.",
+					"maximum": 100000,
+					"minimum": 0,
+					"scope": "resource",
+					"type": "number"
+				}
+			},
+			"title": "Auto-Arrange-Tabs"
+		}
+	},
+	"description": "This extension makes cluttered tabs clean automatically. It moves the used tabs on the far left.",
+	"devDependencies": {
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.0",
+		"@types/node": "14.x",
+		"@types/vscode": "^1.65.0",
+		"@vscode/test-electron": "^2.1.2",
+		"eslint": "^8.9.0",
+		"glob": "^7.2.0",
+		"mocha": "^9.2.1",
+		"typescript": "^4.5.5",
+		"vsce": "^2.15.0"
+	},
+	"displayName": "Auto-Arrange-Tabs",
+	"engines": {
+		"vscode": "^1.67.0"
+	},
+	"icon": "icon.png",
+	"keywords": [
+		"tabs",
+		"sort",
+		"order",
+		"arrange",
+		"panels"
+	],
+	"main": "./extension.js",
+	"name": "auto-arrange-tabs",
+	"publisher": "smallStall",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/smallStall/auto-arrange-tabs"
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"version": "0.5.0",
+	"__metadata": {
+		"id": "1dde4b46-ed75-442b-b071-e43c62e30e00",
+		"publisherId": "ce0a9c6b-2f12-4bed-9162-6141d3ef27c1",
+		"publisherDisplayName": "smallStall",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1706416743786,
+		"pinned": false,
+		"preRelease": false
+	}
+}

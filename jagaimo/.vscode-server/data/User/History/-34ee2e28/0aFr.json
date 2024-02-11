@@ -1,0 +1,20 @@
+{
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.autoIndent": "none",
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.guides.indentation": false,
+  "editor.indentSize": "tabSize",
+  "workbench.tree.indent": 12,
+  "terminal.integrated.fontSize": 20,
+  "terminal.explorerKind": "external",
+  "terminal.external.windowsExec": "wt",
+  "editor.fontSize": 30,
+  "editor.fontFamily": "Ricty Diminished",
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  },
+  "rubyLsp.rubyVersionManager": "rbenv",
+  "rubyLsp.formatter": "auto",
+}

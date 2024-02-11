@@ -1,0 +1,41 @@
+2024-01-31 19:10:18.976 [info] 
+
+
+
+
+2024-01-31 19:10:19.016 [info] Extension host agent started.
+2024-01-31 19:10:19.140 [debug] Removing uninstalled extensions: ["ms-ceintl.vscode-language-pack-ja-1.85.2024012409"]
+2024-01-31 19:10:19.257 [info] [127.0.0.1][73feea15][ManagementConnection] New connection established.
+2024-01-31 19:10:19.285 [info] Log level changed to info
+2024-01-31 19:10:19.368 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-ja /home/jagaimo/jagaimo/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024012409
+2024-01-31 19:10:19.646 [info] [127.0.0.1][ba77b318][ExtensionHostConnection] New connection established.
+2024-01-31 19:10:19.772 [info] [127.0.0.1][ba77b318][ExtensionHostConnection] <377> Launched Extension Host Process.
+2024-01-31 19:10:20.621 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/jagaimo/jagaimo/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024012409.2a9125a6.vsctmp'
+    at a.create (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:104:29559)
+    at g (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:104:29674)
+    at n.fb (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:109:35177)
+    at n.stat (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:109:27623)
+    at async h.stat (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:109:14733)
+    at async _.tb (/home/jagaimo/jagaimo/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:159:71700)
+2024-01-31 19:14:31.595 [info] [127.0.0.1][73feea15][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-31 19:14:32.151 [info] [127.0.0.1][ba77b318][ExtensionHostConnection] <377> Extension Host Process exited with code: 0, signal: null.
+2024-01-31 19:14:38.010 [info] [127.0.0.1][1437eaae][ManagementConnection] New connection established.
+2024-01-31 19:14:39.420 [info] [127.0.0.1][781c11e2][ExtensionHostConnection] New connection established.
+2024-01-31 19:14:39.483 [info] [127.0.0.1][781c11e2][ExtensionHostConnection] <4037> Launched Extension Host Process.
+2024-01-31 19:14:58.581 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-01-31 19:14:58.582 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-01-31 19:15:05.365 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-01-31 19:15:05.366 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-01-31 19:15:12.115 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-01-31 19:15:12.115 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-01-31 19:15:18.598 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-01-31 19:15:18.599 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-01-31 19:15:25.695 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-01-31 19:15:25.696 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-01-31 19:15:33.373 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-01-31 19:15:33.374 [error] [File Watcher (universal)] gave up attempting to restart watcher after error: No such file or directory
+2024-01-31 19:34:03.646 [info] [127.0.0.1][1437eaae][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-31 19:34:04.378 [info] [127.0.0.1][781c11e2][ExtensionHostConnection] <4037> Extension Host Process exited with code: 0, signal: null.
+2024-01-31 19:34:11.432 [info] [127.0.0.1][64739be0][ManagementConnection] New connection established.
+2024-01-31 19:34:12.681 [info] [127.0.0.1][46f347fe][ExtensionHostConnection] New connection established.
+2024-01-31 19:34:12.711 [info] [127.0.0.1][46f347fe][ExtensionHostConnection] <16699> Launched Extension Host Process.

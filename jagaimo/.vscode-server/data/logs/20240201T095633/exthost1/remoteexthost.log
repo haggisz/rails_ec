@@ -1,0 +1,12 @@
+2024-02-01 09:56:35.706 [info] Extension host with pid 374 started
+2024-02-01 09:56:35.732 [info] Lock '/home/jagaimo/jagaimo/.vscode-server/data/User/workspaceStorage/987360811b1fb73b4a553eddf91be1f7/vscode.lock': Lock acquired.
+2024-02-01 09:56:35.846 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-01 09:56:35.849 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+2024-02-01 09:56:35.962 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-01 09:56:35.963 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-01 09:56:42.857 [info] Not activating extension 'github.vscode-github-actions': Timed out while searching for 'workspaceContains' pattern **/.github/workflows/**
+2024-02-01 09:56:42.868 [info] Eager extensions activated
+2024-02-01 09:56:42.869 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 09:56:42.870 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 09:56:42.870 [info] ExtensionService#_doActivateExtension smallStall.auto-arrange-tabs, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 10:20:24.617 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'

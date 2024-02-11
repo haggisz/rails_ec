@@ -1,0 +1,7 @@
+{
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.autoIndent": "none",
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.guides.indentation": false,
+  "editor.indentSize": "tabSize"
+}

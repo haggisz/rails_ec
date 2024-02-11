@@ -1,0 +1,21 @@
+.container.min-vh-100.my-5
+  .row.justify-content-center
+    .col-md-8.order-md-1
+      = form_with model: @product, url: admin_products_path, local:true, class: 'xl:w-100 h-auto d:w-100', data: { turbo: false } do |f|
+        = render '/admin/shared/error_messages', resource: @product
+        .mb-4
+          = f.label :name, class: 'mb-2, block, text-sm, text-gray-600'
+          = f.text_field :name, class: 'input-group w-100 rounded-md border border-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100'
+        .mb-4
+          = f.label :body, class: 'mb-2, block, text-sm, text-gray-600'
+          = f.text_area :body, class: 'input-group w-100 rounded-md border border-gray-300 py-2 px-3 placeholder focus-ring'
+        .mb-4
+          = f.label :price, class: 'mb-2, block, text-sm, text-gray-600'
+          = f.number_field :price, class: 'input-group w-100 rounded-md border border-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100'
+        .mb-4
+          = f.label :action, class: 'mb-2, block, text-sm, text-gray-600'
+          = f.text_field :action, class: 'input-group w-100 rounded-md border border-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100'
+        .mb-4
+          = f.label :image, class: 'mb-2, block, text-sm, text-gray-600'
+          = f.file_field :image, class: 'input-group block w-100 px-2 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none'
+        = f.submit class: 'btn btn-primary w-100 fs-3'

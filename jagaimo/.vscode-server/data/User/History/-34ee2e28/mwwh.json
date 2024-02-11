@@ -1,0 +1,15 @@
+{
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.autoIndent": "none",
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.guides.indentation": false,
+  "editor.indentSize": "tabSize",
+  "workbench.tree.indent": 12,
+  "ruby.useLanguageServer": true,
+  "ruby.lint": "rubocop",
+  "ruby.format": "rubocop",
+  "terminal.integrated.fontSize": 6,
+  "terminal.explorerKind": "external",
+  "terminal.external.windowsExec": "wt",
+  "editor.fontSize": 20
+}

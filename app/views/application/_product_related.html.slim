@@ -1,0 +1,18 @@
+.row.gx-4.gx-lg-5.row-cols-2.row-cols-md-3.row-cols-xl-4.justify-content-center
+  .col.mb-5.position-relative
+      .card.h-100
+        = image_tag @product.image, size: '200x200'
+        .card-body.p-4
+          .text-center
+            h5.fw-bolder
+              = @product.name
+            .d-flex.justify-content-center.small.text-warning.mb-2
+              .bi-star-fill
+              .bi-star-fill
+              .bi-star-fill
+              .bi-star-fill
+              .bi-star-fill
+              = @product.price
+        .card-footer.p-4.pt-0.border-top-0.bg-transparent
+          .text-center
+            = link_to @product.action, controller: :products, action: :show, id: @product.id, class: 'btn btn-outline-dark.mt-auto stretched-link'

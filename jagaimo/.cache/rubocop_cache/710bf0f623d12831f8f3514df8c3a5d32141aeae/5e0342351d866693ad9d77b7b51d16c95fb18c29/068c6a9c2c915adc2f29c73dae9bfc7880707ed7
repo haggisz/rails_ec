@@ -1,0 +1,1 @@
+[{"severity":"convention","location":{"begin_pos":115,"end_pos":122},"message":"Layout/EmptyLinesAroundAccessModifier: Keep a blank line before and after `private`.","cop_name":"Layout/EmptyLinesAroundAccessModifier","status":"uncorrected"}]

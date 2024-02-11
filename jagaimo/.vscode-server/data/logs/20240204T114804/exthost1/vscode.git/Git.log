@@ -1,0 +1,254 @@
+2024-02-04 11:48:08.022 [info] Log level: Info
+2024-02-04 11:48:08.023 [info] Validating found git in: "git"
+2024-02-04 11:48:08.023 [info] Using git "2.30.2" from "git"
+2024-02-04 11:48:08.023 [info] > git rev-parse --show-toplevel [151ms]
+2024-02-04 11:48:08.023 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.023 [info] > git rev-parse --show-toplevel [21ms]
+2024-02-04 11:48:08.023 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.023 [info] > git rev-parse --show-toplevel [11ms]
+2024-02-04 11:48:08.023 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.033 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-04 11:48:08.033 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.083 [info] > git rev-parse --show-toplevel [41ms]
+2024-02-04 11:48:08.084 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-04 11:48:08.094 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-04 11:48:08.094 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.102 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 11:48:08.102 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.108 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-04 11:48:08.108 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.114 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-04 11:48:08.114 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.129 [info] > git rev-parse --show-toplevel [6ms]
+2024-02-04 11:48:08.129 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.137 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 11:48:08.137 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.145 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-04 11:48:08.145 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.152 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 11:48:08.152 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-04 11:48:08.167 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-04 11:48:08.167 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.174 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 11:48:08.174 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.182 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-04 11:48:08.182 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.192 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 11:48:08.192 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-04 11:48:08.201 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 11:48:08.201 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.207 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 11:48:08.207 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:48:08.213 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 11:48:08.213 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 11:50:58.191 [info] > git rev-parse --show-toplevel [57ms]
+2024-02-04 11:50:58.239 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-02-04 11:50:58.253 [info] Open repository: /home/jagaimo
+2024-02-04 11:50:58.306 [info] > git config --get commit.template [6ms]
+2024-02-04 11:50:58.354 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index refs/remotes/feature-product-index [9ms]
+2024-02-04 11:50:58.726 [info] > git show --textconv :config/master.key [42ms]
+2024-02-04 11:50:58.730 [info] > git ls-files --stage -- /home/jagaimo/config/master.key [6ms]
+2024-02-04 11:50:58.843 [info] > git status -z -uall [432ms]
+2024-02-04 11:50:58.888 [info] > git check-ignore -v -z --stdin [48ms]
+2024-02-04 11:50:58.894 [info] > git config --get commit.template [7ms]
+2024-02-04 11:50:58.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index refs/remotes/feature-product-index [1ms]
+2024-02-04 11:50:59.009 [info] > git status -z -uall [33ms]
+2024-02-04 11:51:45.077 [info] > git check-ignore -v -z --stdin [7ms]
+2024-02-04 11:51:50.138 [info] > git check-ignore -v -z --stdin [6ms]
+2024-02-04 11:51:50.920 [info] > git check-ignore -v -z --stdin [6ms]
+2024-02-04 11:51:52.207 [info] > git show --textconv :.github/pull_request_template.md [79ms]
+2024-02-04 11:51:52.226 [info] > git ls-files --stage -- /home/jagaimo/.github/pull_request_template.md [20ms]
+2024-02-04 11:51:52.293 [info] > git cat-file -s 7e737f139fef84983e71c8974dfa1fc8620654f4 [11ms]
+2024-02-04 11:51:52.762 [info] > git check-ignore -v -z --stdin [7ms]
+2024-02-04 11:51:53.733 [info] > git show --textconv :.github/workflows/docker.yml [55ms]
+2024-02-04 11:51:53.740 [info] > git ls-files --stage -- /home/jagaimo/.github/workflows/docker.yml [9ms]
+2024-02-04 11:51:53.802 [info] > git cat-file -s 5052c6330eefd4946cd57c36af3559a5e2f68561 [2ms]
+2024-02-04 11:52:38.091 [info] > git check-ignore -v -z --stdin [15ms]
+2024-02-04 11:52:52.727 [info] > git show --textconv :compose.yaml [62ms]
+2024-02-04 11:52:52.731 [info] > git ls-files --stage -- /home/jagaimo/compose.yaml [5ms]
+2024-02-04 11:52:52.792 [info] > git cat-file -s 610253fd5ac93f155a0dd926245d8db80c4fa1ed [2ms]
+2024-02-04 12:01:23.110 [info] > git show --textconv :config/master.key [4015ms]
+2024-02-04 12:02:36.106 [info] > git ls-files --stage -- /home/jagaimo/config/master.key [56456ms]
+2024-02-04 12:04:30.538 [info] Log level: Info
+2024-02-04 12:04:30.546 [info] Validating found git in: "git"
+2024-02-04 12:04:30.546 [info] Using git "2.30.2" from "git"
+2024-02-04 12:04:30.578 [info] > git rev-parse --show-toplevel [16ms]
+2024-02-04 12:04:30.578 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:30.622 [info] > git rev-parse --show-toplevel [25ms]
+2024-02-04 12:04:30.723 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-02-04 12:04:30.736 [info] Open repository: /home/jagaimo
+2024-02-04 12:04:30.792 [info] > git rev-parse --show-toplevel [24ms]
+2024-02-04 12:04:30.792 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:30.794 [info] > git config --get commit.template [42ms]
+2024-02-04 12:04:30.827 [info] > git rev-parse --show-toplevel [20ms]
+2024-02-04 12:04:30.828 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:30.842 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-04 12:04:30.842 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-04 12:04:30.856 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-04 12:04:30.856 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:30.871 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-04 12:04:30.871 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:30.938 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index refs/remotes/feature-product-index [116ms]
+2024-02-04 12:04:30.981 [info] > git rev-parse --show-toplevel [100ms]
+2024-02-04 12:04:30.981 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:30.998 [info] > git rev-parse --show-toplevel [7ms]
+2024-02-04 12:04:30.999 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:31.023 [info] > git rev-parse --show-toplevel [15ms]
+2024-02-04 12:04:31.023 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:31.042 [info] > git rev-parse --show-toplevel [9ms]
+2024-02-04 12:04:31.042 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:31.062 [info] > git rev-parse --show-toplevel [11ms]
+2024-02-04 12:04:31.062 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:31.073 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 12:04:31.073 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-04 12:04:31.094 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 12:04:31.094 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:31.105 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 12:04:31.105 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:31.128 [info] > git rev-parse --show-toplevel [10ms]
+2024-02-04 12:04:31.128 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:31.138 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 12:04:31.138 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-04 12:04:31.148 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 12:04:31.148 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:31.158 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-04 12:04:31.158 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:31.169 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-04 12:04:31.169 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:04:31.203 [info] > git ls-files --stage -- /home/jagaimo/config/master.key [21ms]
+2024-02-04 12:04:31.240 [info] > git show --textconv :config/master.key [18ms]
+2024-02-04 12:04:31.307 [info] > git check-ignore -v -z --stdin [7ms]
+2024-02-04 12:04:31.661 [info] > git status -z -uall [713ms]
+2024-02-04 12:04:31.694 [info] > git config --get commit.template [11ms]
+2024-02-04 12:04:31.696 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index refs/remotes/feature-product-index [3ms]
+2024-02-04 12:04:31.732 [info] > git status -z -uall [24ms]
+2024-02-04 12:07:09.119 [info] > git check-ignore -v -z --stdin [24ms]
+2024-02-04 12:07:10.202 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-04 12:07:10.202 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:07:18.180 [info] > git check-ignore -v -z --stdin [3ms]
+2024-02-04 12:07:18.846 [info] > git check-ignore -v -z --stdin [3ms]
+2024-02-04 12:07:19.583 [info] > git check-ignore -v -z --stdin [4ms]
+2024-02-04 12:07:20.675 [info] > git check-ignore -v -z --stdin [5ms]
+2024-02-04 12:07:24.470 [info] > git check-ignore -v -z --stdin [5ms]
+2024-02-04 12:07:30.695 [info] > git check-ignore -v -z --stdin [3ms]
+2024-02-04 12:07:32.852 [info] > git check-ignore -v -z --stdin [4ms]
+2024-02-04 12:07:38.956 [info] > git show --textconv :compose.yaml [13ms]
+2024-02-04 12:07:38.959 [info] > git ls-files --stage -- /home/jagaimo/compose.yaml [4ms]
+2024-02-04 12:07:38.979 [info] > git cat-file -s 610253fd5ac93f155a0dd926245d8db80c4fa1ed [12ms]
+2024-02-04 12:08:13.266 [info] > git check-ignore -v -z --stdin [9ms]
+2024-02-04 12:08:14.895 [info] > git show --textconv :.github/workflows/docker.yml [15ms]
+2024-02-04 12:08:14.899 [info] > git ls-files --stage -- /home/jagaimo/.github/workflows/docker.yml [4ms]
+2024-02-04 12:08:14.916 [info] > git cat-file -s feae785e446955eeb0d3088033573e348bce97c1 [2ms]
+2024-02-04 12:18:25.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index [18ms]
+2024-02-04 12:18:25.911 [info] > git config --local branch.feature-product-index.vscode-merge-base [1ms]
+2024-02-04 12:18:25.930 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-02-04 12:18:26.083 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index [43ms]
+2024-02-04 12:18:26.095 [info] > git config --local branch.feature-product-index.vscode-merge-base [2ms]
+2024-02-04 12:18:26.107 [info] > git rev-parse --show-toplevel [26ms]
+2024-02-04 12:18:26.107 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-04 12:18:26.108 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-04 12:18:26.571 [info] > git check-ignore -v -z --stdin [18ms]
+2024-02-04 12:18:28.226 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index [2ms]
+2024-02-04 12:18:28.236 [info] > git config --local branch.feature-product-index.vscode-merge-base [2ms]
+2024-02-04 12:18:28.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-04 12:18:35.325 [info] > git check-ignore -v -z --stdin [5ms]
+2024-02-04 12:18:48.250 [info] > git show --textconv :config/credentials.yml.enc [13ms]
+2024-02-04 12:18:48.252 [info] > git ls-files --stage -- /home/jagaimo/config/credentials.yml.enc [3ms]
+2024-02-04 12:18:48.262 [info] > git cat-file -s d91fbdec3628bf3eb511b6f32ed13f2b74c33720 [1ms]
+2024-02-04 12:19:27.619 [info] > git show --textconv :Gemfile [12ms]
+2024-02-04 12:19:27.622 [info] > git ls-files --stage -- /home/jagaimo/Gemfile [7ms]
+2024-02-04 12:19:27.639 [info] > git cat-file -s 19ac0f3c83a738f251be54890b8061387741eb84 [7ms]
+2024-02-04 12:20:18.767 [info] > git show --textconv :Gemfile [9ms]
+2024-02-04 12:20:18.771 [info] > git ls-files --stage -- /home/jagaimo/Gemfile [3ms]
+2024-02-04 12:20:18.784 [info] > git cat-file -s 19ac0f3c83a738f251be54890b8061387741eb84 [2ms]
+2024-02-04 12:21:26.001 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index [2ms]
+2024-02-04 12:21:26.012 [info] > git config --local branch.feature-product-index.vscode-merge-base [1ms]
+2024-02-04 12:21:26.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-04 12:21:26.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index [1ms]
+2024-02-04 12:21:26.107 [info] > git config --local branch.feature-product-index.vscode-merge-base [2ms]
+2024-02-04 12:21:26.117 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-04 12:21:26.754 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index [1ms]
+2024-02-04 12:21:26.764 [info] > git config --local branch.feature-product-index.vscode-merge-base [1ms]
+2024-02-04 12:21:26.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-04 12:21:27.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index [1ms]
+2024-02-04 12:21:27.808 [info] > git config --local branch.feature-product-index.vscode-merge-base [1ms]
+2024-02-04 12:21:27.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-04 12:21:27.879 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index [2ms]
+2024-02-04 12:21:27.890 [info] > git config --local branch.feature-product-index.vscode-merge-base [2ms]
+2024-02-04 12:21:27.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-04 12:21:28.175 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature-product-index [1ms]
+2024-02-04 12:21:28.186 [info] > git config --local branch.feature-product-index.vscode-merge-base [1ms]
+2024-02-04 12:21:28.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-04 12:25:18.497 [info] > git check-ignore -v -z --stdin [12ms]
+2024-02-04 12:25:28.080 [info] > git show --textconv :config/master.key [10ms]
+2024-02-04 12:25:28.083 [info] > git ls-files --stage -- /home/jagaimo/config/master.key [4ms]
+2024-02-04 12:26:23.031 [info] > git ls-files --stage -- /home/jagaimo/config/credentials.yml.enc [3ms]
+2024-02-04 12:26:23.040 [info] > git show --textconv :config/credentials.yml.enc [19ms]
+2024-02-04 12:26:23.041 [info] > git cat-file -s d91fbdec3628bf3eb511b6f32ed13f2b74c33720 [1ms]
+2024-02-04 12:26:58.477 [info] > git show --textconv :config/cable.yml [10ms]
+2024-02-04 12:26:58.479 [info] > git ls-files --stage -- /home/jagaimo/config/cable.yml [5ms]
+2024-02-04 12:26:58.488 [info] > git cat-file -s b2bb97bfae037505585e59965cc2016e7a859b0f [1ms]
+2024-02-04 12:26:58.947 [info] > git show --textconv :config/credentials.yml.enc [10ms]
+2024-02-04 12:26:58.949 [info] > git ls-files --stage -- /home/jagaimo/config/credentials.yml.enc [3ms]
+2024-02-04 12:26:58.958 [info] > git cat-file -s d91fbdec3628bf3eb511b6f32ed13f2b74c33720 [1ms]
+2024-02-04 12:30:47.147 [info] > git ls-files --stage -- /home/jagaimo/config/cable.yml [15ms]
+2024-02-04 12:30:47.156 [info] > git show --textconv :config/cable.yml [35ms]
+2024-02-04 12:30:47.156 [info] > git cat-file -s b2bb97bfae037505585e59965cc2016e7a859b0f [1ms]
+2024-02-04 12:30:47.754 [info] > git show --textconv :config/credentials.yml.enc [8ms]
+2024-02-04 12:30:47.756 [info] > git ls-files --stage -- /home/jagaimo/config/credentials.yml.enc [3ms]
+2024-02-04 12:30:47.764 [info] > git cat-file -s d91fbdec3628bf3eb511b6f32ed13f2b74c33720 [1ms]
+2024-02-04 12:30:48.342 [info] > git show --textconv :config/database.yml [8ms]
+2024-02-04 12:30:48.344 [info] > git ls-files --stage -- /home/jagaimo/config/database.yml [3ms]
+2024-02-04 12:30:48.353 [info] > git cat-file -s e3f639dd57c2924d83eb3e0e70b72924111da774 [1ms]
+2024-02-04 12:30:50.525 [info] > git ls-files --stage -- /home/jagaimo/config/environment.rb [9ms]
+2024-02-04 12:30:50.533 [info] > git show --textconv :config/environment.rb [24ms]
+2024-02-04 12:30:50.534 [info] > git cat-file -s d5abe55806c256100cc029c834f52830829aefc6 [1ms]
+2024-02-04 12:30:52.289 [info] > git show --textconv :config/credentials.yml.enc [9ms]
+2024-02-04 12:30:52.290 [info] > git ls-files --stage -- /home/jagaimo/config/credentials.yml.enc [2ms]
+2024-02-04 12:30:52.298 [info] > git cat-file -s d91fbdec3628bf3eb511b6f32ed13f2b74c33720 [2ms]
+2024-02-04 12:30:55.364 [info] > git show --textconv :config/environment.rb [9ms]
+2024-02-04 12:30:55.365 [info] > git ls-files --stage -- /home/jagaimo/config/environment.rb [2ms]
+2024-02-04 12:30:55.374 [info] > git cat-file -s d5abe55806c256100cc029c834f52830829aefc6 [2ms]
+2024-02-04 12:30:55.810 [info] > git show --textconv :config/importmap.rb [9ms]
+2024-02-04 12:30:55.811 [info] > git ls-files --stage -- /home/jagaimo/config/importmap.rb [3ms]
+2024-02-04 12:30:55.819 [info] > git cat-file -s 2bf638f4af5e9f7399cd9f7cbda407d80050a23d [1ms]
+2024-02-04 12:30:56.738 [info] > git show --textconv :config/master.key [8ms]
+2024-02-04 12:30:56.743 [info] > git ls-files --stage -- /home/jagaimo/config/master.key [5ms]
+2024-02-04 12:30:58.617 [info] > git show --textconv :config/credentials.yml.enc [8ms]
+2024-02-04 12:30:58.619 [info] > git ls-files --stage -- /home/jagaimo/config/credentials.yml.enc [2ms]
+2024-02-04 12:30:58.627 [info] > git cat-file -s d91fbdec3628bf3eb511b6f32ed13f2b74c33720 [1ms]
+2024-02-04 12:31:00.429 [info] > git check-ignore -v -z --stdin [9ms]
+2024-02-04 12:31:01.953 [info] > git check-ignore -v -z --stdin [4ms]
+2024-02-04 12:31:02.936 [info] > git check-ignore -v -z --stdin [3ms]
+2024-02-04 12:31:03.941 [info] > git show --textconv :config/initializers/devise.rb [9ms]
+2024-02-04 12:31:03.943 [info] > git ls-files --stage -- /home/jagaimo/config/initializers/devise.rb [3ms]
+2024-02-04 12:31:03.953 [info] > git cat-file -s 4f4eb778286037e5c5015141f17d74d38e51c882 [2ms]
+2024-02-04 12:33:58.104 [info] > git show --textconv :config/puma.rb [9ms]
+2024-02-04 12:33:58.106 [info] > git ls-files --stage -- /home/jagaimo/config/puma.rb [4ms]
+2024-02-04 12:33:58.115 [info] > git cat-file -s 1713441e5ac43dcba8a7d29c0bceb3bf1a0033c4 [1ms]
+2024-02-04 12:33:58.510 [info] > git show --textconv :config/rails_best_practices.yml [9ms]
+2024-02-04 12:33:58.513 [info] > git ls-files --stage -- /home/jagaimo/config/rails_best_practices.yml [4ms]
+2024-02-04 12:33:58.521 [info] > git cat-file -s 262fc90d57c88a39aeabf59d5c1409b1ce9673a5 [1ms]
+2024-02-04 12:39:39.088 [info] > git show --textconv :.github/workflows/danger.yml [10ms]
+2024-02-04 12:39:39.090 [info] > git ls-files --stage -- /home/jagaimo/.github/workflows/danger.yml [3ms]
+2024-02-04 12:39:39.099 [info] > git cat-file -s c1b0c5bbecb67baeb8fce494c1a6450bd1f21d5b [1ms]
+2024-02-04 12:39:39.462 [info] > git show --textconv :.github/workflows/docker.yml [10ms]
+2024-02-04 12:39:39.464 [info] > git ls-files --stage -- /home/jagaimo/.github/workflows/docker.yml [3ms]
+2024-02-04 12:39:39.475 [info] > git cat-file -s feae785e446955eeb0d3088033573e348bce97c1 [2ms]
+2024-02-04 13:18:41.029 [info] > git show --textconv :config/master.key [27ms]
+2024-02-04 13:18:41.030 [info] > git ls-files --stage -- /home/jagaimo/config/master.key [22ms]
+2024-02-04 16:06:10.662 [info] > git ls-files --stage -- /home/jagaimo/.github/workflows/docker.yml [22ms]
+2024-02-04 16:06:10.675 [info] > git show --textconv :.github/workflows/docker.yml [48ms]
+2024-02-04 16:06:10.676 [info] > git cat-file -s 8777ad834c053f2984d72697ed5c6ade7b66998f [2ms]
+2024-02-04 16:15:22.248 [info] > git ls-files --stage -- /home/jagaimo/config/initializers/devise.rb [22ms]
+2024-02-04 16:15:22.260 [info] > git show --textconv :config/initializers/devise.rb [47ms]
+2024-02-04 16:15:22.264 [info] > git cat-file -s 4f4eb778286037e5c5015141f17d74d38e51c882 [6ms]
+2024-02-04 16:24:40.629 [info] > git ls-files --stage -- /home/jagaimo/.github/workflows/docker.yml [15ms]
+2024-02-04 16:24:40.643 [info] > git show --textconv :.github/workflows/docker.yml [39ms]
+2024-02-04 16:24:40.644 [info] > git cat-file -s 342d8de5047abb8002e897be00d03c1812c86b31 [2ms]

@@ -1,0 +1,23 @@
+2024-02-02 18:05:55.833 [info] 
+
+
+
+
+2024-02-02 18:05:55.844 [info] Extension host agent started.
+2024-02-02 18:05:55.896 [debug] No uninstalled extensions found.
+2024-02-02 18:05:55.898 [info] [127.0.0.1][3591e998][ManagementConnection] New connection established.
+2024-02-02 18:05:55.924 [info] Log level changed to info
+2024-02-02 18:05:56.182 [info] [127.0.0.1][e0af6e5a][ExtensionHostConnection] New connection established.
+2024-02-02 18:05:56.258 [info] [127.0.0.1][e0af6e5a][ExtensionHostConnection] <423> Launched Extension Host Process.
+2024-02-02 18:06:08.173 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-02 18:06:08.174 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-02 18:06:17.011 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-02 18:06:17.012 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-02 18:06:26.167 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-02 18:06:26.168 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-02 18:06:35.376 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-02 18:06:35.377 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-02 18:06:43.591 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-02 18:06:43.591 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-02-02 18:06:52.057 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-02-02 18:06:52.059 [error] [File Watcher (universal)] gave up attempting to restart watcher after error: No such file or directory

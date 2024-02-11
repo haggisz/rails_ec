@@ -1,0 +1,28 @@
+name: "【Docker】Ruby on Rails CI"
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  run-htmlbeautifier:
+    name: Run htmlbeautifier
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout pushed commit
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+    - name: run htmlbeautifier on docker compose
+      env:
+        RAILS_ENV: development
+      run: |
+        docker-compose build
+<<<<<<< HEAD
+        docker-compose run --rm web bin/setup RAILS_ENV
+        docker-compose run --rm web bin/htmlbeautifier RAILS_ENV
+=======
+        docker-compose run --rm web bin/setup SECRET_KEY_BASE_DUMMY=1
+        docker-compose run --rm web bin/htmlbeautifier SECRET_KEY_BASE_DUMM
+        git diff --exit-code

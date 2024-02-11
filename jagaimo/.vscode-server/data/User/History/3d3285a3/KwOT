@@ -1,0 +1,14 @@
+
+USER_ID="1000"
+GROUP_ID="1000"
+TZ="Asia/Tokyo"
+PATH="/usr/local/bundle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+LANG="C.UTF-8"
+RUBY_MAJOR="3.2"
+RUBY_VERSION="3.2.1"
+RUBY_DOWNLOAD_SHA256="746c8661ae25449cbdc5297d1092702e93e66f365a75fecb740d4f292ced630c"
+GEM_HOME="/usr/local/bundle"
+BUNDLE_SILENCE_ROOT_WARNING="1"
+BUNDLE_APP_CONFIG="/usr/local/bundle"
+SECRET_KEY_BASE="1a4e5dca3a321d626e8e59174876f55b9b201cdddee531441ba8eed803dd819b746c28a6c545a4af8601845dde21a423ec892a5d3fb1e87aa85f6e8c0aeef7f8
+"

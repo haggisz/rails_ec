@@ -1,0 +1,7 @@
+{
+  "name": "Docker in Docker",
+  "dockerComposeFile": "compose.yaml",
+  "service": "web",
+  "remoteUser": "vscode",
+  "workspaceFolder": "/home/jagaimo/app"
+}
